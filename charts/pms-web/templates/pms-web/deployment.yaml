@@ -1,0 +1,48 @@
+{{- if .Values.deployment.web.enable }}
+apiVersion: {{ include "app.deployment.apiVersion" . }} # k8s API 版本根据semverCompare判定
+kind: Deployment #指定创建资源的角色/类型
+metadata: #主资源数据/属性
+  name: {{ include "app.moduleName" . }}
+  labels:  # 设定资源的标签
+    {{- include "labels.standard" . | nindent 4 }}
+spec: #资源规范
+  strategy:
+    type: Recreate
+  replicas: {{ .Values.replicaCount }}  #资源副本数目
+  selector: # 选择器
+    matchLabels: # 匹配标签
+      {{- include "labels.standard" . | nindent 6 }}
+  template:  # 模版
+    metadata: # 资源的元数据/属性 
+      labels: # 设定资源的标签
+        {{- include "labels.standard" . | nindent 8 }}
+    spec: # 资源规范字段
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                - key: {{ .Values.matchExpressions.key }}
+                  operator: In
+                {{- range .Values.matchExpressions.values}}
+                  values:
+                  - {{ . }}
+                {{- end }}
+      containers: # 资源容器
+        - name: {{ include "app.moduleName" . }}
+          image: "{{ .Values.image.repository }}:{{ .Chart.Version }}" #镜像地址
+          imagePullPolicy: {{ .Values.image.pullPolicy }} #每次Pod启动拉取镜像策略   Always，每次都检查；Never，每次都不检查（不管本地是否有）；IfNotPresent，如果本地有就不检查，如果没有就拉取
+          env:
+{{- range $name, $value := .Values.env.open }}
+{{- if not (empty $value) }}
+          - name: {{ $name | quote }}
+            value: {{ $value | quote }}
+{{- end }}
+{{- end }}
+          ports:
+            - name: http # 容器端口名
+              containerPort: {{ .Values.service.web.port }} # 容器开发对外的端口 
+              protocol: TCP # 协议
+          resources: # 资源管理
+{{ toYaml .Values.resources | indent 12 }}
+{{- end}}

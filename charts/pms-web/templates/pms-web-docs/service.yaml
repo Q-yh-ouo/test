@@ -1,0 +1,20 @@
+{{- if .Values.service.web_docs.enable }}
+apiVersion: v1 # 指定api版本
+kind: Service # 指定创建资源的角色/类型 
+metadata: # 资源的元数据/属性
+  name: {{ include "app.moduleName" . }}
+  labels:
+    {{- include "labels.standard" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.web_docs.type }} # pod采用暴露模式
+  ports:
+    - port: {{ .Values.service.web_docs.port }}
+      targetPort: http 
+      protocol: TCP # 协议
+      name: http # 容器暴露的端口名字
+      {{- if and (eq .Values.service.web_docs.type "NodePort") .Values.service.web_docs.nodeport }}
+      nodePort: {{ .Values.service.web_docs.nodeport }}
+  {{- end }}
+  selector:
+    {{- include "labels.standard" . | nindent 4 }}
+  {{- end }}

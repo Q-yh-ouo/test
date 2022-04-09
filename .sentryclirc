@@ -1,0 +1,7 @@
+[auth]
+token=0445628dc0374d10869e437641b985c6a584a487ff5241208732d95188a5cc2f
+
+[defaults]
+url=http://sentry.auth.lesso.com/
+org=sentry
+project=pms-web-browser

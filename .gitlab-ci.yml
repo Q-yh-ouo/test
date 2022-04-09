@@ -1,0 +1,4 @@
+include: http://api.mage.lesso.com/devops/v1/projects/171905868749479936/ci_contents/pipelines/47f63f5e-9490-4e06-bac8-950b4f46d461/content.yaml
+
+## include: http://api.lesso.choerodon.io/devops/v1/projects/108610460396425216/ci_contents/pipelines/d436a259-6026-4a10-bafb-c5122a48c7e6/content.yaml
+#include: http://api.dev.k8s.lesso.com/devops/v1/projects/1/ci_contents/pipelines/998daa77-001a-4066-a54f-f283abce0cd9/content.yaml

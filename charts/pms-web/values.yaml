@@ -1,0 +1,46 @@
+replicaCount: 1
+groupName: pms-group
+projectName: pms-web
+image:
+  repository: harbor.prod.k8s.lesso.com/operation-pms-group/pms-web
+  docsRepository: harbor.prod.k8s.lesso.com/operation-pms-group/pms-web-docs
+  pullPolicy: Always
+deployment:
+  web:
+    enable: true
+  web_docs:
+    enable: true
+service:
+  web:
+    name: pms-web
+    enable: true
+    type: ClusterIP
+    port: 80
+  web_docs:
+    name: pms-web-docs
+    enable: true
+    type: ClusterIP
+    port: 80
+ingress:
+  web:
+    enable: true
+    host: pms-group.pms-web.172.16.90.27.xip.io
+  web_docs:
+    enable: true
+    host: pms-group.pms-web-docs.172.16.90.27.xip.io
+env:
+  open:
+    PRO_API_HOST: api.prod.k8s.lesso.com
+logs:
+  parser: nginx
+matchExpressions:
+  key: host-role-app
+  values:
+    - dev-work-app
+resources:
+  requests:
+    memory: 300Mi
+    cpu: 100m
+  limits:
+    memory: 500Mi
+    cpu: 200m
