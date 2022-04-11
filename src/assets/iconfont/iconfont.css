@@ -1,0 +1,2259 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2537161 */
+  src: url('iconfont.woff2?t=1624868388025') format('woff2'),
+       url('iconfont.woff?t=1624868388025') format('woff'),
+       url('iconfont.ttf?t=1624868388025') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gaikuang:before {
+  content: "\e646";
+}
+
+.icon-fenhongqingkuang:before {
+  content: "\e60c";
+}
+
+.icon-pingshenjieguo:before {
+  content: "\e600";
+}
+
+.icon-personalStatistics:before {
+  content: "\ebb6";
+}
+
+.icon-departmentStatistics:before {
+  content: "\ebb7";
+}
+
+.icon-companyStatistics:before {
+  content: "\e662";
+}
+
+.icon-image:before {
+  content: "\e695";
+}
+
+.icon-TXTwenjian:before {
+  content: "\e666";
+}
+
+.icon-file-excel:before {
+  content: "\ebae";
+}
+
+.icon-file-word:before {
+  content: "\ebaf";
+}
+
+.icon-file-ppt:before {
+  content: "\ebb0";
+}
+
+.icon-file-unknown:before {
+  content: "\ebb5";
+}
+
+.icon-formApplication:before {
+  content: "\e770";
+}
+
+.icon-summaryApplication:before {
+  content: "\e81e";
+}
+
+.icon-gradingApplication:before {
+  content: "\e69d";
+}
+
+.icon-rewardAndPunishmentManagement:before {
+  content: "\e610";
+}
+
+.icon-departmentFieldManagement:before {
+  content: "\e6b2";
+}
+
+.icon-nodeFieldManagement:before {
+  content: "\eb64";
+}
+
+.icon-departmentDefaultManagement:before {
+  content: "\e644";
+}
+
+.icon-departmentTemplateManagement:before {
+  content: "\e627";
+}
+
+.icon-formManagement:before {
+  content: "\e645";
+}
+
+.icon-systemFieldManagement:before {
+  content: "\e643";
+}
+
+.icon-processManagement:before {
+  content: "\e642";
+}
+
+.icon-departmentalManagement:before {
+  content: "\e641";
+}
+
+.icon-companyManagement:before {
+  content: "\eaed";
+}
+
+.icon-checkItemReport:before {
+  content: "\e7e0";
+}
+
+.icon-monthlyStartSetting:before {
+  content: "\e769";
+}
+
+.icon-zhFirInspection:before {
+  content: "\e7e1";
+}
+
+.icon-reasonsForHourlyWorkSubsidy:before {
+  content: "\e76a";
+}
+
+.icon-ptProductReport:before {
+  content: "\e7e2";
+}
+
+.icon-orderPriority:before {
+  content: "\e76b";
+}
+
+.icon-ptWorkshopReport:before {
+  content: "\e7e3";
+}
+
+.icon-materialCategory:before {
+  content: "\e76c";
+}
+
+.icon-cplqcproblem:before {
+  content: "\e7e4";
+}
+
+.icon-typeOfWork:before {
+  content: "\e76d";
+}
+
+.icon-guanmoshijian:before {
+  content: "\e7e5";
+}
+
+.icon-reservationComparison:before {
+  content: "\e76e";
+}
+
+.icon-dangritiaojitiaojishichang:before {
+  content: "\e7e6";
+}
+
+.icon-distributionRecord:before {
+  content: "\ea51";
+}
+
+.icon-dangrihemocishu:before {
+  content: "\e7e7";
+}
+
+.icon-securityDataInspection:before {
+  content: "\ea64";
+}
+
+.icon-dangqianzhusuzhouqi:before {
+  content: "\e7e8";
+}
+
+.icon-materialConsumeData:before {
+  content: "\ea65";
+}
+
+.icon-shechushijian:before {
+  content: "\e7e9";
+}
+
+.icon-functionConfig:before {
+  content: "\ea66";
+}
+
+.icon-dangriyunhangshichang:before {
+  content: "\e7ea";
+}
+
+.icon-securityMstInfo:before {
+  content: "\ea67";
+}
+
+.icon-dangqianlengqueshijian:before {
+  content: "\e7eb";
+}
+
+.icon-CraftRecord:before {
+  content: "\ea68";
+}
+
+.icon-dangrijiagongzhuangtai:before {
+  content: "\e7ec";
+}
+
+.icon-werksPassRateDetailReport:before {
+  content: "\ea69";
+}
+
+.icon-shengchanzhouqi:before {
+  content: "\e7ed";
+}
+
+.icon-gasInspectionQuery:before {
+  content: "\ea6a";
+}
+
+.icon-xiajiang:before {
+  content: "\e7ee";
+}
+
+.icon-securityMacInfo:before {
+  content: "\ea6b";
+}
+
+.icon-shangzhang:before {
+  content: "\e7ef";
+}
+
+.icon-gasFir:before {
+  content: "\ea6c";
+}
+
+.icon-process-point-manage:before {
+  content: "\e656";
+}
+
+.icon-homeScanInspection:before {
+  content: "\ea6d";
+}
+
+.icon-device-process-relate:before {
+  content: "\e657";
+}
+
+.icon-gasFirRecord:before {
+  content: "\ea6e";
+}
+
+.icon-process-warn-manage:before {
+  content: "\e658";
+}
+
+.icon-gasDataModifyJournal:before {
+  content: "\ea6f";
+}
+
+.icon-process-setting-chart:before {
+  content: "\e659";
+}
+
+.icon-QualifiedRateDetailReport:before {
+  content: "\ea70";
+}
+
+.icon-supplierSetting:before {
+  content: "\e6c8";
+}
+
+.icon-securityTagInfoSetting:before {
+  content: "\ea71";
+}
+
+.icon-baseSetting:before {
+  content: "\e65a";
+}
+
+.icon-waterInspResult:before {
+  content: "\ea72";
+}
+
+.icon-partsSetting:before {
+  content: "\e65b";
+}
+
+.icon-propJudge:before {
+  content: "\ea73";
+}
+
+.icon-compartRelated:before {
+  content: "\e65c";
+}
+
+.icon-AntProdImgUpload:before {
+  content: "\ea74";
+}
+
+.icon-componentLibraryAssociation:before {
+  content: "\e65d";
+}
+
+.icon-checkItemPassRateReport:before {
+  content: "\ea75";
+}
+
+.icon-orderComponentSubmit:before {
+  content: "\e65e";
+}
+
+.icon-securityAnalysisReport:before {
+  content: "\ea76";
+}
+
+.icon-generateDevice:before {
+  content: "\e65f";
+}
+
+.icon-waterInspQuery:before {
+  content: "\ea77";
+}
+
+.icon-statusSetting:before {
+  content: "\e660";
+}
+
+.icon-securitySearchTrack:before {
+  content: "\ea78";
+}
+
+.icon-mouldLedger:before {
+  content: "\e661";
+}
+
+.icon-ralMarcRenderInspection:before {
+  content: "\ea79";
+}
+
+.icon-dayAttendanceReport:before {
+  content: "\e7f0";
+}
+
+.icon-InspectionCount:before {
+  content: "\ea7a";
+}
+
+.icon-attendanceTrendReport:before {
+  content: "\e7f1";
+}
+
+.icon-outputData:before {
+  content: "\ea7b";
+}
+
+.icon-attendanceSummary:before {
+  content: "\e7f2";
+}
+
+.icon-cplrptprodseries:before {
+  content: "\ea7c";
+}
+
+.icon-personalAttendance:before {
+  content: "\e7f3";
+}
+
+.icon-qualityCtrlDataReport:before {
+  content: "\ea7d";
+}
+
+.icon-cropRateTrendStatement:before {
+  content: "\e7f4";
+}
+
+.icon-gasSampleCheck:before {
+  content: "\ea7e";
+}
+
+.icon-perCapitaOutput:before {
+  content: "\e7f5";
+}
+
+.icon-gasSampleReport:before {
+  content: "\ea7f";
+}
+
+.icon-dailyProductionReport:before {
+  content: "\e7f6";
+}
+
+.icon-sellScanStatistics:before {
+  content: "\ea80";
+}
+
+.icon-cropRateRatioStatement:before {
+  content: "\e7f7";
+}
+
+.icon-diffRange:before {
+  content: "\ea81";
+}
+
+.icon-productClassificationStatistics:before {
+  content: "\e7f8";
+}
+
+.icon-gasOQCRecore:before {
+  content: "\ea82";
+}
+
+.icon-personnelManagement:before {
+  content: "\e7f9";
+}
+
+.icon-gasOQC:before {
+  content: "\ea83";
+}
+
+.icon-process-realtime-chart:before {
+  content: "\e7fb";
+}
+
+.icon-cplManageReport:before {
+  content: "\ea84";
+}
+
+.icon-standard-chart:before {
+  content: "\e7fc";
+}
+
+.icon-matUseRatio:before {
+  content: "\ea85";
+}
+
+.icon-shebei:before {
+  content: "\e7fd";
+}
+
+.icon-gasFileList:before {
+  content: "\ea86";
+}
+
+.icon-nenghao:before {
+  content: "\e7fe";
+}
+
+.icon-gasNopassBill:before {
+  content: "\ea87";
+}
+
+.icon-zhiliang:before {
+  content: "\e7ff";
+}
+
+.icon-samplingPlan:before {
+  content: "\ea88";
+}
+
+.icon-chanpin:before {
+  content: "\e800";
+}
+
+.icon-gasSelRecord:before {
+  content: "\ea89";
+}
+
+.icon-xingneng:before {
+  content: "\e821";
+}
+
+.icon-gasRou:before {
+  content: "\ea8a";
+}
+
+.icon-quyuxuanze:before {
+  content: "\e822";
+}
+
+.icon-gasWeldRecord:before {
+  content: "\ea8b";
+}
+
+.icon-class-rules-manage:before {
+  content: "\e851";
+}
+
+.icon-gasRouRecord:before {
+  content: "\ea8c";
+}
+
+.icon-baojingjilu:before {
+  content: "\e854";
+}
+
+.icon-gasWeld:before {
+  content: "\ea8d";
+}
+
+.icon-phInsnpbill:before {
+  content: "\e856";
+}
+
+.icon-gasSel:before {
+  content: "\ea8e";
+}
+
+.icon-marcRalProcess:before {
+  content: "\e857";
+}
+
+.icon-templateProjectConfig:before {
+  content: "\ea8f";
+}
+
+.icon-configureQualityWorkshop:before {
+  content: "\e858";
+}
+
+.icon-multilevelAnomal:before {
+  content: "\ea90";
+}
+
+.icon-phInsnpflow:before {
+  content: "\e859";
+}
+
+.icon-templateCategory:before {
+  content: "\ea91";
+}
+
+.icon-purchaseInsbill:before {
+  content: "\e85a";
+}
+
+.icon-checkItemCraft:before {
+  content: "\ea92";
+}
+
+.icon-phInsRecord:before {
+  content: "\e85b";
+}
+
+.icon-craftItem:before {
+  content: "\ea93";
+}
+
+.icon-stocklocation:before {
+  content: "\e85c";
+}
+
+.icon-techParamItems:before {
+  content: "\ea94";
+}
+
+.icon-qtDepartLeader:before {
+  content: "\e77e";
+}
+
+.icon-feedingMaintenance:before {
+  content: "\ea95";
+}
+
+.icon-qtType:before {
+  content: "\e77f";
+}
+
+.icon-standardRange:before {
+  content: "\ea96";
+}
+
+.icon-printTemps:before {
+  content: "\e780";
+}
+
+.icon-deviceTemplate:before {
+  content: "\ea97";
+}
+
+.icon-myQtList:before {
+  content: "\e781";
+}
+
+.icon-issueReservation:before {
+  content: "\ea98";
+}
+
+.icon-qtReport:before {
+  content: "\e782";
+}
+
+.icon-PickingApprovalConfiguration:before {
+  content: "\ea99";
+}
+
+.icon-inspectionOrderManagement:before {
+  content: "\e872";
+}
+
+.icon-ShiftManagement:before {
+  content: "\ea9a";
+}
+
+.icon-pointInspectionProjectStandard:before {
+  content: "\e873";
+}
+
+.icon-shebeitaizhangzhuisu:before {
+  content: "\ea9b";
+}
+
+.icon-pointInspectionBenchmark:before {
+  content: "\e874";
+}
+
+.icon-haveDoList:before {
+  content: "\ea9c";
+}
+
+.icon-mobileType:before {
+  content: "\e875";
+}
+
+.icon-gasCorrectReport:before {
+  content: "\ea9d";
+}
+
+.icon-materialTeam:before {
+  content: "\e876";
+}
+
+.icon-gasFirDetailRecord:before {
+  content: "\ea9e";
+}
+
+.icon-shebeiguanli:before {
+  content: "\e877";
+}
+
+.icon-gasRouDetailRecord:before {
+  content: "\ea9f";
+}
+
+.icon-partsBodyMaintain:before {
+  content: "\e878";
+}
+
+.icon-gasSelDetailRecore:before {
+  content: "\eaa0";
+}
+
+.icon-batchCloseDispatchList:before {
+  content: "\e879";
+}
+
+.icon-prodWorkPlanningSearch:before {
+  content: "\eaa1";
+}
+
+.icon-batchCloseOrder:before {
+  content: "\e87a";
+}
+
+.icon-prodWordPlanOptimizing:before {
+  content: "\eaa2";
+}
+
+.icon-operationLogRecord:before {
+  content: "\e87b";
+}
+
+.icon-prodWorkPlanning:before {
+  content: "\eaa3";
+}
+
+.icon-resistanceTestRecord:before {
+  content: "\e87c";
+}
+
+.icon-exportDataCheck:before {
+  content: "\eaa4";
+}
+
+.icon-offlineInventoryPC:before {
+  content: "\e87d";
+}
+
+.icon-orderDemandPlanning:before {
+  content: "\eaa5";
+}
+
+.icon-warehouseReceiptRecord:before {
+  content: "\e87e";
+}
+
+.icon-orderBreakdown:before {
+  content: "\eaa6";
+}
+
+.icon-recycledMaterial:before {
+  content: "\e87f";
+}
+
+.icon-orderReceiving:before {
+  content: "\eaa7";
+}
+
+.icon-shujujichuguanli:before {
+  content: "\e604";
+}
+
+.icon-postingQuery:before {
+  content: "\e880";
+}
+
+.icon-orderAssignmentMaintenance:before {
+  content: "\eaa8";
+}
+
+.icon-paigongdanguanli:before {
+  content: "\e625";
+}
+
+.icon-wasteAllocation:before {
+  content: "\e881";
+}
+
+.icon-orderDistribution:before {
+  content: "\eaa9";
+}
+
+.icon-xiala:before {
+  content: "\e626";
+}
+
+.icon-personalSignIn:before {
+  content: "\e882";
+}
+
+.icon-prodSchedulingSearch:before {
+  content: "\eaaa";
+}
+
+.icon-productOrder:before {
+  content: "\e62a";
+}
+
+.icon-personalSignInRecord:before {
+  content: "\e883";
+}
+
+.icon-prodWalkthrough:before {
+  content: "\eaab";
+}
+
+.icon-shouqi:before {
+  content: "\e628";
+}
+
+.icon-workOrderTraceability:before {
+  content: "\e884";
+}
+
+.icon-shengchanpaicheng:before {
+  content: "\eaac";
+}
+
+.icon-shebeizhuangtai:before {
+  content: "\e629";
+}
+
+.icon-workOrderAcceptance:before {
+  content: "\e885";
+}
+
+.icon-ItemProjectSqa:before {
+  content: "\eaad";
+}
+
+.icon-gongdanguanli:before {
+  content: "\e62b";
+}
+
+.icon-orderManagement:before {
+  content: "\e886";
+}
+
+.icon-prodTaskOrder:before {
+  content: "\eaae";
+}
+
+.icon-xialasanjiao:before {
+  content: "\e62c";
+}
+
+.icon-reportForRepairOfEquipment:before {
+  content: "\e887";
+}
+
+.icon-prodTaskOrderSearch:before {
+  content: "\eaaf";
+}
+
+.icon-bangzhu:before {
+  content: "\e62d";
+}
+
+.icon-myWorkOrder:before {
+  content: "\e888";
+}
+
+.icon-prodDownPlanning:before {
+  content: "\eab0";
+}
+
+.icon-dianhua:before {
+  content: "\e62e";
+}
+
+.icon-mailboxReminderQuery:before {
+  content: "\e889";
+}
+
+.icon-supplierScore:before {
+  content: "\eab1";
+}
+
+.icon-yonghuming:before {
+  content: "\e62f";
+}
+
+.icon-mailboxReminder:before {
+  content: "\e88a";
+}
+
+.icon-prodSendOrder:before {
+  content: "\eab2";
+}
+
+.icon-mima:before {
+  content: "\e630";
+}
+
+.icon-maintainTimeManagement:before {
+  content: "\e88b";
+}
+
+.icon-prodResourceLoad:before {
+  content: "\eab3";
+}
+
+.icon-maximize:before {
+  content: "\e631";
+}
+
+.icon-pc_equipmentRegistration:before {
+  content: "\e88c";
+}
+
+.icon-supplierAnalyse:before {
+  content: "\eab4";
+}
+
+.icon-closeWin:before {
+  content: "\e632";
+}
+
+.icon-componentEntity:before {
+  content: "\e88d";
+}
+
+.icon-tongjixiangmuweihu:before {
+  content: "\eab5";
+}
+
+.icon-xuanze:before {
+  content: "\e633";
+}
+
+.icon-maintenanceCalendar:before {
+  content: "\e88e";
+}
+
+.icon-registrationOfSurplusMaterials:before {
+  content: "\eab6";
+}
+
+.icon-tianjia:before {
+  content: "\e634";
+}
+
+.icon-maintainTaskSheetManagement:before {
+  content: "\e88f";
+}
+
+.icon-pickingGradeMaintenance:before {
+  content: "\eab7";
+}
+
+.icon-shanjian:before {
+  content: "\e635";
+}
+
+.icon-maintainBenchmark:before {
+  content: "\e890";
+}
+
+.icon-feedingNotice:before {
+  content: "\eab8";
+}
+
+.icon-xiangzuo:before {
+  content: "\e636";
+}
+
+.icon-resistanceDetection:before {
+  content: "\e89c";
+}
+
+.icon-calibrationOfWeighingInstrument:before {
+  content: "\eab9";
+}
+
+.icon-xiangyou:before {
+  content: "\e637";
+}
+
+.icon-alarm-log:before {
+  content: "\e8af";
+}
+
+.icon-ultrasonicCalibration:before {
+  content: "\eaba";
+}
+
+.icon-daoxu:before {
+  content: "\e638";
+}
+
+.icon-setting-summary:before {
+  content: "\e8b0";
+}
+
+.icon-ultrasonicInduction:before {
+  content: "\e76f";
+}
+
+.icon-iconzhengxu:before {
+  content: "\e639";
+}
+
+.icon-extrusion-process:before {
+  content: "\e8b2";
+}
+
+.icon-gasEntryRecord:before {
+  content: "\eae3";
+}
+
+.icon-beixuanzhong:before {
+  content: "\e63a";
+}
+
+.icon-mold-params:before {
+  content: "\e8b3";
+}
+
+.icon-xiujiashenpipeizhi:before {
+  content: "\eae4";
+}
+
+.icon-biaoqianyeguanbi:before {
+  content: "\e63b";
+}
+
+.icon-warn-record:before {
+  content: "\e8b4";
+}
+
+.icon-parameterStandard:before {
+  content: "\eaeb";
+}
+
+.icon-sousuo:before {
+  content: "\e63c";
+}
+
+.icon-sampleReport:before {
+  content: "\e8c1";
+}
+
+.icon-parameterManagement:before {
+  content: "\eaec";
+}
+
+.icon-icon_clean:before {
+  content: "\e678";
+}
+
+.icon-checkItemSetting:before {
+  content: "\e8c2";
+}
+
+.icon-resize:before {
+  content: "\e679";
+}
+
+.icon-purchasers:before {
+  content: "\e8c3";
+}
+
+.icon-mine:before {
+  content: "\e67a";
+}
+
+.icon-receivePlatform:before {
+  content: "\e8cf";
+}
+
+.icon-masterData:before {
+  content: "\e67b";
+}
+
+.icon-loginLog:before {
+  content: "\e8d0";
+}
+
+.icon-workshopManpower:before {
+  content: "\e67c";
+}
+
+.icon-mobileReportExcelImport:before {
+  content: "\e8d1";
+}
+
+.icon-equipmentUpgrades:before {
+  content: "\e67d";
+}
+
+.icon-serverManagement:before {
+  content: "\e8d2";
+}
+
+.icon-mouldManage:before {
+  content: "\e67e";
+}
+
+.icon-mouldMyWorkOrder:before {
+  content: "\e8d3";
+}
+
+.icon-deviceManage:before {
+  content: "\e67f";
+}
+
+.icon-personalConfiguration:before {
+  content: "\e8d4";
+}
+
+.icon-productionBigData:before {
+  content: "\e680";
+}
+
+.icon-moldLoadAndUnloadWorkOrderTraceability:before {
+  content: "\e8d5";
+}
+
+.icon-productionManage:before {
+  content: "\e681";
+}
+
+.icon-moldLoadAndUnloadReceivePlatform:before {
+  content: "\e8d6";
+}
+
+.icon-energyManage:before {
+  content: "\e682";
+}
+
+.icon-wodedaiban:before {
+  content: "\e8d7";
+}
+
+.icon-productionExecute:before {
+  content: "\e683";
+}
+
+.icon-moldLoadAndUnloadManagement:before {
+  content: "\e8d8";
+}
+
+.icon-materielManage:before {
+  content: "\e684";
+}
+
+.icon-roleStatistics:before {
+  content: "\e8d9";
+}
+
+.icon-manage:before {
+  content: "\e685";
+}
+
+.icon-moldLoadAndUnloadMyWorkOrder:before {
+  content: "\e8da";
+}
+
+.icon-qualityManage:before {
+  content: "\e686";
+}
+
+.icon-mobileReportSettings:before {
+  content: "\e8db";
+}
+
+.icon-minimize:before {
+  content: "\e68c";
+}
+
+.icon-processReminderSettings:before {
+  content: "\e8dc";
+}
+
+.icon-dailing:before {
+  content: "\e6a8";
+}
+
+.icon-pageStatistics:before {
+  content: "\e8dd";
+}
+
+.icon-shouqi1:before {
+  content: "\e63d";
+}
+
+.icon-mouldRepair:before {
+  content: "\e8de";
+}
+
+.icon-zhankai:before {
+  content: "\e63e";
+}
+
+.icon-personalReminderSettings:before {
+  content: "\e8df";
+}
+
+.icon-reportReserve:before {
+  content: "\e6e6";
+}
+
+.icon-mouldWorkOrderAcceptance:before {
+  content: "\e8e0";
+}
+
+.icon-querywarehouse:before {
+  content: "\e6e7";
+}
+
+.icon-mouldWorkOrderTraceability:before {
+  content: "\e8e1";
+}
+
+.icon-reportWork:before {
+  content: "\e6e8";
+}
+
+.icon-qualityUserStat:before {
+  content: "\e8e2";
+}
+
+.icon-failureReason:before {
+  content: "\e6e9";
+}
+
+.icon-screensaverSettings:before {
+  content: "\e8e3";
+}
+
+.icon-factoryDate:before {
+  content: "\e6ea";
+}
+
+.icon-associatedProcessParameters:before {
+  content: "\e8e4";
+}
+
+.icon-unTreatedNoPass:before {
+  content: "\e6eb";
+}
+
+.icon-processParameterSetting:before {
+  content: "\e8e5";
+}
+
+.icon-relatedPosition:before {
+  content: "\e6ec";
+}
+
+.icon-processParameterTemplateSetting:before {
+  content: "\e8e6";
+}
+
+.icon-warehouseType:before {
+  content: "\e6ed";
+}
+
+.icon-homePageJumpSettings:before {
+  content: "\e8e7";
+}
+
+.icon-gongchangguanli:before {
+  content: "\e6ee";
+}
+
+.icon-add:before {
+  content: "\e8e8";
+}
+
+.icon-unInspectionBill:before {
+  content: "\e6ef";
+}
+
+.icon-equipmentRegisterRecord:before {
+  content: "\e8ec";
+}
+
+.icon-chejianguanli:before {
+  content: "\e6f0";
+}
+
+.icon-remeltingBarcode:before {
+  content: "\e8ed";
+}
+
+.icon-workProcess:before {
+  content: "\e6f1";
+}
+
+.icon-workshopProcessMaintenance:before {
+  content: "\e8ee";
+}
+
+.icon-machine:before {
+  content: "\e6f2";
+}
+
+.icon-workshopLabelMaintenance:before {
+  content: "\e8ef";
+}
+
+.icon-materialGroup:before {
+  content: "\e6f3";
+}
+
+.icon-materialHandover:before {
+  content: "\e8f0";
+}
+
+.icon-reportSummary:before {
+  content: "\e6f4";
+}
+
+.icon-scrapRecord:before {
+  content: "\e8f1";
+}
+
+.icon-unitPrice:before {
+  content: "\e6f5";
+}
+
+.icon-adjustingMachineReceivePlatform:before {
+  content: "\e7fa";
+}
+
+.icon-productCategory:before {
+  content: "\e6f6";
+}
+
+.icon-partsAccount:before {
+  content: "\e801";
+}
+
+.icon-unit:before {
+  content: "\e6f7";
+}
+
+.icon-partsTraceability:before {
+  content: "\e802";
+}
+
+.icon-measSta:before {
+  content: "\e6f8";
+}
+
+.icon-adjustingMachineManagement:before {
+  content: "\e803";
+}
+
+.icon-jijiangongyi:before {
+  content: "\e6f9";
+}
+
+.icon-sizeSettings:before {
+  content: "\e804";
+}
+
+.icon-inspectionStandard:before {
+  content: "\e6fa";
+}
+
+.icon-setPageHome:before {
+  content: "\e805";
+}
+
+.icon-inspectionItem:before {
+  content: "\e6fb";
+}
+
+.icon-resolutionSettings:before {
+  content: "\e806";
+}
+
+.icon-inspectionStandardType:before {
+  content: "\e6fc";
+}
+
+.icon-ipcAuthority:before {
+  content: "\e807";
+}
+
+.icon-peifangguanli:before {
+  content: "\e6fd";
+}
+
+.icon-ipcPurpose:before {
+  content: "\e808";
+}
+
+.icon-inspectionManager:before {
+  content: "\e6fe";
+}
+
+.icon-securitySetting:before {
+  content: "\e809";
+}
+
+.icon-quyuguanli:before {
+  content: "\e6ff";
+}
+
+.icon-supplierSettings:before {
+  content: "\e80a";
+}
+
+.icon-stockChangeRecord:before {
+  content: "\e700";
+}
+
+.icon-ipcRegistry:before {
+  content: "\e810";
+}
+
+.icon-shijiwuliaochaxun:before {
+  content: "\e701";
+}
+
+.icon-ipcMonitor:before {
+  content: "\e811";
+}
+
+.icon-realMaterial:before {
+  content: "\e702";
+}
+
+.icon-moldLoadAndUnloadAcceptance:before {
+  content: "\e812";
+}
+
+.icon-firInspectionBill:before {
+  content: "\e703";
+}
+
+.icon-ipcManagement:before {
+  content: "\e813";
+}
+
+.icon-positionStock:before {
+  content: "\e704";
+}
+
+.icon-adjustingMachineManageAcceptance:before {
+  content: "\e814";
+}
+
+.icon-firInspectionReport:before {
+  content: "\e705";
+}
+
+.icon-adjustingMachineWorkOrderTraceability:before {
+  content: "\e815";
+}
+
+.icon-posConfig:before {
+  content: "\e706";
+}
+
+.icon-jiedanguanli1:before {
+  content: "\e816";
+}
+
+.icon-position:before {
+  content: "\e707";
+}
+
+.icon-adjustingMachineMyWorkOrder:before {
+  content: "\e817";
+}
+
+.icon-toDoList:before {
+  content: "\e708";
+}
+
+.icon-dispenser-chart:before {
+  content: "\e934";
+}
+
+.icon-ralMaterialPlace:before {
+  content: "\e709";
+}
+
+.icon-materialGroupHK:before {
+  content: "\e935";
+}
+
+.icon-ralMarcUnitPrice:before {
+  content: "\e70a";
+}
+
+.icon-reportWorkEnter:before {
+  content: "\e951";
+}
+
+.icon-ralMarcInspection:before {
+  content: "\e70b";
+}
+
+.icon-banzuchengzhong:before {
+  content: "\e952";
+}
+
+.icon-wuliaoguanli:before {
+  content: "\e70c";
+}
+
+.icon-specialOrderTrackingReport:before {
+  content: "\e953";
+}
+
+.icon-ralMarcMeasue:before {
+  content: "\e70d";
+}
+
+.icon-wasteRegistered:before {
+  content: "\e954";
+}
+
+.icon-materialStock:before {
+  content: "\e70e";
+}
+
+.icon-weightComparisonReport:before {
+  content: "\e955";
+}
+
+.icon-wuliaoweihu:before {
+  content: "\e70f";
+}
+
+.icon-reportWorkSetting:before {
+  content: "\e956";
+}
+
+.icon-rouInspectionBill:before {
+  content: "\e710";
+}
+
+.icon-materialMaintenance:before {
+  content: "\e957";
+}
+
+.icon-performanceItem:before {
+  content: "\e711";
+}
+
+.icon-carNoMasterData:before {
+  content: "\e958";
+}
+
+.icon-treatedNoPass:before {
+  content: "\e712";
+}
+
+.icon-ipc_registeredWasteProportion:before {
+  content: "\e959";
+}
+
+.icon-rouInspectionReport:before {
+  content: "\e713";
+}
+
+.icon-orderComparisonReport:before {
+  content: "\e95a";
+}
+
+.icon-selInspectionReport:before {
+  content: "\e714";
+}
+
+.icon-ProportionalDistributionWaste:before {
+  content: "\e95b";
+}
+
+.icon-qualitySystem:before {
+  content: "\e715";
+}
+
+.icon-wasteMaterial:before {
+  content: "\e95c";
+}
+
+.icon-organizationalManagement:before {
+  content: "\e716";
+}
+
+.icon-activateOrderPC:before {
+  content: "\e95d";
+}
+
+.icon-selInspectionBill:before {
+  content: "\e717";
+}
+
+.icon-lixianshangchuan:before {
+  content: "\e95e";
+}
+
+.icon-dispatchMonitorPC:before {
+  content: "\e718";
+}
+
+.icon-activateDispatchOrders:before {
+  content: "\e95f";
+}
+
+.icon-templateImport:before {
+  content: "\e71a";
+}
+
+.icon-tareWeightSet:before {
+  content: "\e960";
+}
+
+.icon-demo:before {
+  content: "\e71b";
+}
+
+.icon-GroupWasteWeighingRecords:before {
+  content: "\e961";
+}
+
+.icon-materialUnit:before {
+  content: "\e71c";
+}
+
+.icon-sourcesOfWaste:before {
+  content: "\e962";
+}
+
+.icon-exchangeOrder:before {
+  content: "\e71d";
+}
+
+.icon-WasteProportionRecord:before {
+  content: "\e963";
+}
+
+.icon-ipcNewSel:before {
+  content: "\e71e";
+}
+
+.icon-messageJumpSettings:before {
+  content: "\e964";
+}
+
+.icon-samplingSingleQuery:before {
+  content: "\e71f";
+}
+
+.icon-moldInAndOut:before {
+  content: "\e965";
+}
+
+.icon-ipcNewFir:before {
+  content: "\e720";
+}
+
+.icon-transferApproval:before {
+  content: "\e966";
+}
+
+.icon-orderManagePC:before {
+  content: "\e721";
+}
+
+.icon-faultDescriptConfiguration:before {
+  content: "\e968";
+}
+
+.icon-ipcNewRou:before {
+  content: "\e722";
+}
+
+.icon-smallMoldManagement:before {
+  content: "\e969";
+}
+
+.icon-dataitem-detail:before {
+  content: "\e719";
+}
+
+.icon-qualityControlApproval:before {
+  content: "\e96a";
+}
+
+.icon-collection-monitor:before {
+  content: "\e72a";
+}
+
+.icon-mouldHandover:before {
+  content: "\e96b";
+}
+
+.icon-prjManage:before {
+  content: "\e72b";
+}
+
+.icon-moldHandoverTraceability:before {
+  content: "\e96c";
+}
+
+.icon-collection-list:before {
+  content: "\e72c";
+}
+
+.icon-personalSignInSetting:before {
+  content: "\e96d";
+}
+
+.icon-send-config:before {
+  content: "\e72d";
+}
+
+.icon-moldReturn:before {
+  content: "\e96e";
+}
+
+.icon-ota-manage:before {
+  content: "\e72e";
+}
+
+.icon-receivingProcessing:before {
+  content: "\e96f";
+}
+
+.icon-dataAcquisition:before {
+  content: "\e72f";
+}
+
+.icon-mouldScheduling:before {
+  content: "\e970";
+}
+
+.icon-inspectionBasis:before {
+  content: "\e723";
+}
+
+.icon-mouldRepairApply:before {
+  content: "\e971";
+}
+
+.icon-samplingSingleApproval:before {
+  content: "\e724";
+}
+
+.icon-attendanceAccount:before {
+  content: "\e997";
+}
+
+.icon-customInspection:before {
+  content: "\e725";
+}
+
+.icon-schedulingConfiguration:before {
+  content: "\e998";
+}
+
+.icon-scaleManage:before {
+  content: "\e726";
+}
+
+.icon-staffTeam:before {
+  content: "\e999";
+}
+
+.icon-materalcShirTime:before {
+  content: "\e727";
+}
+
+.icon-personnelFile:before {
+  content: "\e99a";
+}
+
+.icon-collection-mode:before {
+  content: "\e728";
+}
+
+.icon-leaveType:before {
+  content: "\e99b";
+}
+
+.icon-ratio-chart:before {
+  content: "\e729";
+}
+
+.icon-approvalConfiguration:before {
+  content: "\e99c";
+}
+
+.icon-material-chart:before {
+  content: "\e732";
+}
+
+.icon-subsidyProject:before {
+  content: "\e99d";
+}
+
+.icon-dianhua1:before {
+  content: "\e63f";
+}
+
+.icon-scoreSet:before {
+  content: "\e99e";
+}
+
+.icon-selInsReport:before {
+  content: "\e730";
+}
+
+.icon-moldExchangeOrder:before {
+  content: "\e9a0";
+}
+
+.icon-firInsReport:before {
+  content: "\e731";
+}
+
+.icon-dieScrapApproval:before {
+  content: "\e9a1";
+}
+
+.icon-rouInsReport:before {
+  content: "\e733";
+}
+
+.icon-retrospectionOfAccountModification:before {
+  content: "\e9a2";
+}
+
+.icon-insTimesReport:before {
+  content: "\e734";
+}
+
+.icon-mouldMovementTraceability:before {
+  content: "\e9a3";
+}
+
+.icon-yieldReport:before {
+  content: "\e735";
+}
+
+.icon-mojuxiadan:before {
+  content: "\e9cb";
+}
+
+.icon-autoYieldTransfer:before {
+  content: "\e736";
+}
+
+.icon-recommend:before {
+  content: "\e9dc";
+}
+
+.icon-qualityBillReport:before {
+  content: "\e737";
+}
+
+.icon-recommendDevice:before {
+  content: "\e9dd";
+}
+
+.icon-weight-chart:before {
+  content: "\e738";
+}
+
+.icon-moduleManage:before {
+  content: "\e9de";
+}
+
+.icon-dispatchCheck:before {
+  content: "\e739";
+}
+
+.icon-dataRoleManage:before {
+  content: "\e9df";
+}
+
+.icon-dispatchMonitorReport:before {
+  content: "\e73a";
+}
+
+.icon-userManage:before {
+  content: "\e9e0";
+}
+
+.icon-orderManageReport:before {
+  content: "\e73b";
+}
+
+.icon-scanConfiguration:before {
+  content: "\e9e1";
+}
+
+.icon-qualityClassSet:before {
+  content: "\e73c";
+}
+
+.icon-orgManage:before {
+  content: "\e9e2";
+}
+
+.icon-samplingReport:before {
+  content: "\e73d";
+}
+
+.icon-dictionaryImport:before {
+  content: "\e9e3";
+}
+
+.icon-performInsTimesReport:before {
+  content: "\e73e";
+}
+
+.icon-dataSourceDeploy:before {
+  content: "\e9e4";
+}
+
+.icon-ipcNewPartsFir:before {
+  content: "\e73f";
+}
+
+.icon-dataBaseManage:before {
+  content: "\e9e5";
+}
+
+.icon-online-monitor:before {
+  content: "\e74b";
+}
+
+.icon-dictionaryManagement:before {
+  content: "\e9e6";
+}
+
+.icon-fanhui:before {
+  content: "\e640";
+}
+
+.icon-labelManagement:before {
+  content: "\e9e8";
+}
+
+.icon-obligateGenerate:before {
+  content: "\e74d";
+}
+
+.icon-ipc_machineWeighting:before {
+  content: "\e9e9";
+}
+
+.icon-positionFactoryDate:before {
+  content: "\e74e";
+}
+
+.icon-transhipmentReport:before {
+  content: "\e9ea";
+}
+
+.icon-classSetInfoList:before {
+  content: "\e750";
+}
+
+.icon-orderAssign:before {
+  content: "\e9fa";
+}
+
+.icon-QCReport:before {
+  content: "\e751";
+}
+
+.icon-assignTraceBack:before {
+  content: "\e9fb";
+}
+
+.icon-electronicScale:before {
+  content: "\e752";
+}
+
+.icon-moldOrder:before {
+  content: "\e9fc";
+}
+
+.icon-qmMstSpcproduct:before {
+  content: "\e753";
+}
+
+.icon-moldUsageStatusReport:before {
+  content: "\e9fd";
+}
+
+.icon-qmRalCountitemPiquota:before {
+  content: "\e754";
+}
+
+.icon-commonGroupSetting:before {
+  content: "\e9fe";
+}
+
+.icon-operationDataRelation:before {
+  content: "\e755";
+}
+
+.icon-saoyisaoshezhi:before {
+  content: "\e9ff";
+}
+
+.icon-qmRalSpcproductPfmitem:before {
+  content: "\e756";
+}
+
+.icon-materialRelativeMold:before {
+  content: "\ea00";
+}
+
+.icon-handoverRecored:before {
+  content: "\e757";
+}
+
+.icon-materialPersonnelMmaintenance:before {
+  content: "\ea09";
+}
+
+.icon-userStatistics:before {
+  content: "\e758";
+}
+
+.icon-materialApproval:before {
+  content: "\ea0a";
+}
+
+.icon-operationDataReport:before {
+  content: "\e759";
+}
+
+.icon-propertySettings:before {
+  content: "\ea0b";
+}
+
+.icon-operationDataSet:before {
+  content: "\e75a";
+}
+
+.icon-propertyGroup:before {
+  content: "\ea0c";
+}
+
+.icon-printBarCodeRecordTable:before {
+  content: "\e75b";
+}
+
+.icon-largeScreenConfiguration:before {
+  content: "\ea2e";
+}
+
+.icon-barcodeInformationQuery:before {
+  content: "\e75c";
+}
+
+.icon-shebeishiyongqingkuangbaobiao:before {
+  content: "\ea2f";
+}
+
+.icon-cplhandlist:before {
+  content: "\e75d";
+}
+
+.icon-regionalManagement:before {
+  content: "\ea30";
+}
+
+.icon-cplrecord:before {
+  content: "\e75e";
+}
+
+.icon-deviceTypeSubclassSettings:before {
+  content: "\ea31";
+}
+
+.icon-cpldutydepart:before {
+  content: "\e75f";
+}
+
+.icon-wuliaofenfa:before {
+  content: "\ea32";
+}
+
+.icon-device-monitor:before {
+  content: "\e773";
+}
+
+.icon-materialTraceability:before {
+  content: "\ea33";
+}
+
+.icon-projectConfig:before {
+  content: "\e777";
+}
+
+.icon-businessFunctionSettings:before {
+  content: "\ea34";
+}
+
+.icon-weldingCodeConfig:before {
+  content: "\e778";
+}
+
+.icon-materialActivation:before {
+  content: "\ea35";
+}
+
+.icon-projectMaintain:before {
+  content: "\e779";
+}
+
+.icon-wuliaojichushezhi:before {
+  content: "\ea36";
+}
+
+.icon-EFPMaterialMaintenance:before {
+  content: "\e77a";
+}
+
+.icon-documentManagement:before {
+  content: "\ea37";
+}
+
+.icon-codeType:before {
+  content: "\e77b";
+}
+
+.icon-gongzhonggongjiaqingdan:before {
+  content: "\e740";
+}
+
+.icon-projectConfigWorkName:before {
+  content: "\e77c";
+}
+
+.icon-banzushezhi:before {
+  content: "\e741";
+}
+
+.icon-user-info-manage:before {
+  content: "\e7a9";
+}
+
+.icon-banzuchengyuan:before {
+  content: "\e742";
+}
+
+.icon-operation-guide:before {
+  content: "\e7aa";
+}
+
+.icon-hesuanriqi:before {
+  content: "\e743";
+}
+
+.icon-stock:before {
+  content: "\e7ce";
+}
+
+.icon-yuangongxinxi:before {
+  content: "\e744";
+}
+
+.icon-appcplrecord:before {
+  content: "\e7cf";
+}
+
+.icon-zonghejifen:before {
+  content: "\e745";
+}
+
+.icon-intakeReservation:before {
+  content: "\e7d0";
+}
+
+.icon-gongsishezhi:before {
+  content: "\e746";
+}
+
+.icon-matWeightRecord:before {
+  content: "\e7d1";
+}
+
+.icon-workshopType:before {
+  content: "\e747";
+}
+
+.icon-offlineDataProcess:before {
+  content: "\e7d2";
+}
+
+.icon-baogongguanli:before {
+  content: "\e748";
+}
+
+.icon-warehouse:before {
+  content: "\e7d3";
+}
+
+.icon-bufenyanshouhegegongjiaqingdan:before {
+  content: "\e749";
+}
+
+.icon-materialTicket:before {
+  content: "\e7d4";
+}
+
+.icon-paigongguanli:before {
+  content: "\e74c";
+}
+
+.icon-customMaterials:before {
+  content: "\e7d5";
+}
+
+.icon-mojuzhushuju:before {
+  content: "\e74f";
+}
+
+.icon-iRScan:before {
+  content: "\e7d6";
+}
+
+.icon-yanshouhegemojugongjiaqingdan:before {
+  content: "\e760";
+}
+
+.icon-operationalRecords:before {
+  content: "\e7d7";
+}
+
+.icon-dingdanguanli:before {
+  content: "\e761";
+}
+
+.icon-inventory:before {
+  content: "\e7d8";
+}
+
+.icon-mojujichanshezhi:before {
+  content: "\e762";
+}
+
+.icon-cplproductseries:before {
+  content: "\e7d9";
+}
+
+.icon-shenpicaozuo:before {
+  content: "\e763";
+}
+
+.icon-cplqcreason:before {
+  content: "\e7da";
+}
+
+.icon-jijiangongyishezhi:before {
+  content: "\e764";
+}
+
+.icon-cplmeasuresreport:before {
+  content: "\e7db";
+}
+
+.icon-nanduxishushezhi:before {
+  content: "\e765";
+}
+
+.icon-zhRouInspection:before {
+  content: "\e7dc";
+}
+
+.icon-changeStatus:before {
+  content: "\e74a";
+}
+
+.icon-cplProblems:before {
+  content: "\e7dd";
+}
+
+.icon-contractCompany:before {
+  content: "\e766";
+}
+
+.icon-cplreporttype:before {
+  content: "\e7de";
+}
+
+.icon-changeReasons:before {
+  content: "\e767";
+}
+
+.icon-zhSelInspection:before {
+  content: "\e7df";
+}
+
+.icon-monthlySubsidyItems:before {
+  content: "\e768";
+}
+

@@ -1,0 +1,17 @@
+{{- if .Values.ingress.web_docs.enable }}
+apiVersion: {{ include "app.ingress.apiVersion" . }}
+kind: Ingress
+metadata:
+  name: {{ include "app.moduleName" . }}
+  labels:
+    {{- include "labels.standard" . | nindent 4 }}
+spec:
+  rules:
+    - host: {{ .Values.ingress.web_docs.host }}
+      http:
+        paths:
+          - backend:
+              serviceName: {{ default .Release.Name  .Values.service.web_docs.name }}
+              servicePort: {{ .Values.service.web_docs.port }}
+            path: /
+  {{- end }}

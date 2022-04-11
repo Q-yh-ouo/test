@@ -1,0 +1,3936 @@
+{
+  "id": "2537161",
+  "name": "绩效管理平台",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "524503",
+      "name": "概况",
+      "font_class": "gaikuang",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "5334147",
+      "name": "分红情况",
+      "font_class": "fenhongqingkuang",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "20654161",
+      "name": "评审结果",
+      "font_class": "pingshenjieguo",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "22526597",
+      "name": "统计",
+      "font_class": "personalStatistics",
+      "unicode": "ebb6",
+      "unicode_decimal": 60342
+    },
+    {
+      "icon_id": "22526600",
+      "name": "统计",
+      "font_class": "departmentStatistics",
+      "unicode": "ebb7",
+      "unicode_decimal": 60343
+    },
+    {
+      "icon_id": "16372298",
+      "name": "统计",
+      "font_class": "companyStatistics",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "9976585",
+      "name": "图片文件",
+      "font_class": "image",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "17406393",
+      "name": "TXT文件",
+      "font_class": "TXTwenjian",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "19702774",
+      "name": "excel文件",
+      "font_class": "file-excel",
+      "unicode": "ebae",
+      "unicode_decimal": 60334
+    },
+    {
+      "icon_id": "19702862",
+      "name": "word文件",
+      "font_class": "file-word",
+      "unicode": "ebaf",
+      "unicode_decimal": 60335
+    },
+    {
+      "icon_id": "19702962",
+      "name": "ppt文件",
+      "font_class": "file-ppt",
+      "unicode": "ebb0",
+      "unicode_decimal": 60336
+    },
+    {
+      "icon_id": "19703280",
+      "name": "未知文件",
+      "font_class": "file-unknown",
+      "unicode": "ebb5",
+      "unicode_decimal": 60341
+    },
+    {
+      "icon_id": "6550538",
+      "name": "文件-考核表",
+      "font_class": "formApplication",
+      "unicode": "e770",
+      "unicode_decimal": 59248
+    },
+    {
+      "icon_id": "8220817",
+      "name": "操作-汇总表",
+      "font_class": "summaryApplication",
+      "unicode": "e81e",
+      "unicode_decimal": 59422
+    },
+    {
+      "icon_id": "14996933",
+      "name": "绩效考核部门评分",
+      "font_class": "gradingApplication",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "10054071",
+      "name": "奖惩措施",
+      "font_class": "rewardAndPunishmentManagement",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "2786517",
+      "name": "内容字段管理",
+      "font_class": "departmentFieldManagement",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "3868272",
+      "name": "节点管理",
+      "font_class": "nodeFieldManagement",
+      "unicode": "eb64",
+      "unicode_decimal": 60260
+    },
+    {
+      "icon_id": "7050553",
+      "name": "表信息管理",
+      "font_class": "departmentDefaultManagement",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "7171162",
+      "name": "模板管理",
+      "font_class": "departmentTemplateManagement",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "14015822",
+      "name": "-_内容管理",
+      "font_class": "formManagement",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "20032551",
+      "name": "字段管理",
+      "font_class": "systemFieldManagement",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "12896509",
+      "name": "流程管理@3x",
+      "font_class": "processManagement",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "11882428",
+      "name": "部门管理",
+      "font_class": "departmentalManagement",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "21485969",
+      "name": "公司管理",
+      "font_class": "companyManagement",
+      "unicode": "eaed",
+      "unicode_decimal": 60141
+    },
+    {
+      "icon_id": "10017624",
+      "name": "检验项目控制图",
+      "font_class": "checkItemReport",
+      "unicode": "e7e0",
+      "unicode_decimal": 59360
+    },
+    {
+      "icon_id": "19058509",
+      "name": "考勤起始设置",
+      "font_class": "monthlyStartSetting",
+      "unicode": "e769",
+      "unicode_decimal": 59241
+    },
+    {
+      "icon_id": "10017625",
+      "name": "综合配件首检录入",
+      "font_class": "zhFirInspection",
+      "unicode": "e7e1",
+      "unicode_decimal": 59361
+    },
+    {
+      "icon_id": "19058510",
+      "name": "时工补助原因",
+      "font_class": "reasonsForHourlyWorkSubsidy",
+      "unicode": "e76a",
+      "unicode_decimal": 59242
+    },
+    {
+      "icon_id": "10017627",
+      "name": "过程检验产品统计",
+      "font_class": "ptProductReport",
+      "unicode": "e7e2",
+      "unicode_decimal": 59362
+    },
+    {
+      "icon_id": "19058511",
+      "name": "订单优先级",
+      "font_class": "orderPriority",
+      "unicode": "e76b",
+      "unicode_decimal": 59243
+    },
+    {
+      "icon_id": "10017636",
+      "name": "过程检验车间",
+      "font_class": "ptWorkshopReport",
+      "unicode": "e7e3",
+      "unicode_decimal": 59363
+    },
+    {
+      "icon_id": "19058512",
+      "name": "物料类别",
+      "font_class": "materialCategory",
+      "unicode": "e76c",
+      "unicode_decimal": 59244
+    },
+    {
+      "icon_id": "10017696",
+      "name": "产品系列问题维护",
+      "font_class": "cplqcproblem",
+      "unicode": "e7e4",
+      "unicode_decimal": 59364
+    },
+    {
+      "icon_id": "19058513",
+      "name": "工种定编",
+      "font_class": "typeOfWork",
+      "unicode": "e76d",
+      "unicode_decimal": 59245
+    },
+    {
+      "icon_id": "10061894",
+      "name": "关模时间",
+      "font_class": "guanmoshijian",
+      "unicode": "e7e5",
+      "unicode_decimal": 59365
+    },
+    {
+      "icon_id": "19058514",
+      "name": "预留对比",
+      "font_class": "reservationComparison",
+      "unicode": "e76e",
+      "unicode_decimal": 59246
+    },
+    {
+      "icon_id": "10061895",
+      "name": "当日调机:调机时长",
+      "font_class": "dangritiaojitiaojishichang",
+      "unicode": "e7e6",
+      "unicode_decimal": 59366
+    },
+    {
+      "icon_id": "19107951",
+      "name": "缺货情况",
+      "font_class": "distributionRecord",
+      "unicode": "ea51",
+      "unicode_decimal": 59985
+    },
+    {
+      "icon_id": "10061896",
+      "name": "当日合模次数",
+      "font_class": "dangrihemocishu",
+      "unicode": "e7e7",
+      "unicode_decimal": 59367
+    },
+    {
+      "icon_id": "19477722",
+      "name": "防伪数据监控",
+      "font_class": "securityDataInspection",
+      "unicode": "ea64",
+      "unicode_decimal": 60004
+    },
+    {
+      "icon_id": "10061897",
+      "name": "当前注塑周期",
+      "font_class": "dangqianzhusuzhouqi",
+      "unicode": "e7e8",
+      "unicode_decimal": 59368
+    },
+    {
+      "icon_id": "19477723",
+      "name": "材料用量基础数据表",
+      "font_class": "materialConsumeData",
+      "unicode": "ea65",
+      "unicode_decimal": 60005
+    },
+    {
+      "icon_id": "10061898",
+      "name": "射出时间",
+      "font_class": "shechushijian",
+      "unicode": "e7e9",
+      "unicode_decimal": 59369
+    },
+    {
+      "icon_id": "19477724",
+      "name": "功能配置表",
+      "font_class": "functionConfig",
+      "unicode": "ea66",
+      "unicode_decimal": 60006
+    },
+    {
+      "icon_id": "10061899",
+      "name": "当日运行时长",
+      "font_class": "dangriyunhangshichang",
+      "unicode": "e7ea",
+      "unicode_decimal": 59370
+    },
+    {
+      "icon_id": "19477725",
+      "name": "防伪物料信息",
+      "font_class": "securityMstInfo",
+      "unicode": "ea67",
+      "unicode_decimal": 60007
+    },
+    {
+      "icon_id": "10061900",
+      "name": "当前冷却时间",
+      "font_class": "dangqianlengqueshijian",
+      "unicode": "e7eb",
+      "unicode_decimal": 59371
+    },
+    {
+      "icon_id": "19477726",
+      "name": "工艺参数记录查询",
+      "font_class": "CraftRecord",
+      "unicode": "ea68",
+      "unicode_decimal": 60008
+    },
+    {
+      "icon_id": "10061901",
+      "name": "当日加工状态",
+      "font_class": "dangrijiagongzhuangtai",
+      "unicode": "e7ec",
+      "unicode_decimal": 59372
+    },
+    {
+      "icon_id": "19477727",
+      "name": "工厂抽检合格率",
+      "font_class": "werksPassRateDetailReport",
+      "unicode": "ea69",
+      "unicode_decimal": 60009
+    },
+    {
+      "icon_id": "10061902",
+      "name": "生产周期",
+      "font_class": "shengchanzhouqi",
+      "unicode": "e7ed",
+      "unicode_decimal": 59373
+    },
+    {
+      "icon_id": "19477729",
+      "name": "燃气检验单查询",
+      "font_class": "gasInspectionQuery",
+      "unicode": "ea6a",
+      "unicode_decimal": 60010
+    },
+    {
+      "icon_id": "10064871",
+      "name": "下降",
+      "font_class": "xiajiang",
+      "unicode": "e7ee",
+      "unicode_decimal": 59374
+    },
+    {
+      "icon_id": "19477730",
+      "name": "机台信息",
+      "font_class": "securityMacInfo",
+      "unicode": "ea6b",
+      "unicode_decimal": 60011
+    },
+    {
+      "icon_id": "10064885",
+      "name": "上涨",
+      "font_class": "shangzhang",
+      "unicode": "e7ef",
+      "unicode_decimal": 59375
+    },
+    {
+      "icon_id": "19477732",
+      "name": "燃气首检录入",
+      "font_class": "gasFir",
+      "unicode": "ea6c",
+      "unicode_decimal": 60012
+    },
+    {
+      "icon_id": "10134521",
+      "name": "采集数据点管理",
+      "font_class": "process-point-manage",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "19477733",
+      "name": "家装扫码关联",
+      "font_class": "homeScanInspection",
+      "unicode": "ea6d",
+      "unicode_decimal": 60013
+    },
+    {
+      "icon_id": "10134522",
+      "name": "设备工艺参数关联",
+      "font_class": "device-process-relate",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "19477734",
+      "name": "燃气首检记录",
+      "font_class": "gasFirRecord",
+      "unicode": "ea6e",
+      "unicode_decimal": 60014
+    },
+    {
+      "icon_id": "10134771",
+      "name": "工艺参数报警规则",
+      "font_class": "process-warn-manage",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "19477735",
+      "name": "数据修改申请",
+      "font_class": "gasDataModifyJournal",
+      "unicode": "ea6f",
+      "unicode_decimal": 60015
+    },
+    {
+      "icon_id": "10134772",
+      "name": "工艺参数设定报表",
+      "font_class": "process-setting-chart",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "19477736",
+      "name": "集团抽检合格率",
+      "font_class": "QualifiedRateDetailReport",
+      "unicode": "ea70",
+      "unicode_decimal": 60016
+    },
+    {
+      "icon_id": "6091865",
+      "name": "供应商管理",
+      "font_class": "supplierSetting",
+      "unicode": "e6c8",
+      "unicode_decimal": 59080
+    },
+    {
+      "icon_id": "19477738",
+      "name": "标签防伪信息维护",
+      "font_class": "securityTagInfoSetting",
+      "unicode": "ea71",
+      "unicode_decimal": 60017
+    },
+    {
+      "icon_id": "10134871",
+      "name": "基础设置",
+      "font_class": "baseSetting",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "19477739",
+      "name": "水分检验结果",
+      "font_class": "waterInspResult",
+      "unicode": "ea72",
+      "unicode_decimal": 60018
+    },
+    {
+      "icon_id": "10134872",
+      "name": "部件管理",
+      "font_class": "partsSetting",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "19477740",
+      "name": "属性判定维护",
+      "font_class": "propJudge",
+      "unicode": "ea73",
+      "unicode_decimal": 60019
+    },
+    {
+      "icon_id": "10134873",
+      "name": "组件部件管理",
+      "font_class": "compartRelated",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "19477741",
+      "name": "产品图片上传",
+      "font_class": "AntProdImgUpload",
+      "unicode": "ea74",
+      "unicode_decimal": 60020
+    },
+    {
+      "icon_id": "10134874",
+      "name": "组件库关联",
+      "font_class": "componentLibraryAssociation",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "19477742",
+      "name": "检验项目抽样合格率",
+      "font_class": "checkItemPassRateReport",
+      "unicode": "ea75",
+      "unicode_decimal": 60021
+    },
+    {
+      "icon_id": "10134875",
+      "name": "组件管理",
+      "font_class": "orderComponentSubmit",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "19477743",
+      "name": "防伪分析报表",
+      "font_class": "securityAnalysisReport",
+      "unicode": "ea76",
+      "unicode_decimal": 60022
+    },
+    {
+      "icon_id": "10134876",
+      "name": "生成设备",
+      "font_class": "generateDevice",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "19477744",
+      "name": "水分检验单查询",
+      "font_class": "waterInspQuery",
+      "unicode": "ea77",
+      "unicode_decimal": 60023
+    },
+    {
+      "icon_id": "10134877",
+      "name": "设备状态设置",
+      "font_class": "statusSetting",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "19477745",
+      "name": "防伪查询追踪",
+      "font_class": "securitySearchTrack",
+      "unicode": "ea78",
+      "unicode_decimal": 60024
+    },
+    {
+      "icon_id": "10134878",
+      "name": "模具台账",
+      "font_class": "mouldLedger",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "19477746",
+      "name": "物料关联区间维护",
+      "font_class": "ralMarcRenderInspection",
+      "unicode": "ea79",
+      "unicode_decimal": 60025
+    },
+    {
+      "icon_id": "10142633",
+      "name": "日出勤统计报表",
+      "font_class": "dayAttendanceReport",
+      "unicode": "e7f0",
+      "unicode_decimal": 59376
+    },
+    {
+      "icon_id": "19477747",
+      "name": "检验次数统计表",
+      "font_class": "InspectionCount",
+      "unicode": "ea7a",
+      "unicode_decimal": 60026
+    },
+    {
+      "icon_id": "10142634",
+      "name": "出勤率趋势报表",
+      "font_class": "attendanceTrendReport",
+      "unicode": "e7f1",
+      "unicode_decimal": 59377
+    },
+    {
+      "icon_id": "19477748",
+      "name": "产量基础数据表",
+      "font_class": "outputData",
+      "unicode": "ea7b",
+      "unicode_decimal": 60027
+    },
+    {
+      "icon_id": "10142635",
+      "name": "考勤汇总统计",
+      "font_class": "attendanceSummary",
+      "unicode": "e7f2",
+      "unicode_decimal": 59378
+    },
+    {
+      "icon_id": "19477749",
+      "name": "统计类产品系列关联",
+      "font_class": "cplrptprodseries",
+      "unicode": "ea7c",
+      "unicode_decimal": 60028
+    },
+    {
+      "icon_id": "10142636",
+      "name": "个人考勤记录",
+      "font_class": "personalAttendance",
+      "unicode": "e7f3",
+      "unicode_decimal": 59379
+    },
+    {
+      "icon_id": "19477750",
+      "name": "质量控制图",
+      "font_class": "qualityCtrlDataReport",
+      "unicode": "ea7d",
+      "unicode_decimal": 60029
+    },
+    {
+      "icon_id": "10142637",
+      "name": "稼动率趋势报表",
+      "font_class": "cropRateTrendStatement",
+      "unicode": "e7f4",
+      "unicode_decimal": 59380
+    },
+    {
+      "icon_id": "19477751",
+      "name": "燃气抽样单查询",
+      "font_class": "gasSampleCheck",
+      "unicode": "ea7e",
+      "unicode_decimal": 60030
+    },
+    {
+      "icon_id": "10142638",
+      "name": "人均产量",
+      "font_class": "perCapitaOutput",
+      "unicode": "e7f5",
+      "unicode_decimal": 59381
+    },
+    {
+      "icon_id": "19477752",
+      "name": "燃气抽样单报表",
+      "font_class": "gasSampleReport",
+      "unicode": "ea7f",
+      "unicode_decimal": 60031
+    },
+    {
+      "icon_id": "10142639",
+      "name": "生产日报表",
+      "font_class": "dailyProductionReport",
+      "unicode": "e7f6",
+      "unicode_decimal": 59382
+    },
+    {
+      "icon_id": "19477753",
+      "name": "出货扫码统计",
+      "font_class": "sellScanStatistics",
+      "unicode": "ea80",
+      "unicode_decimal": 60032
+    },
+    {
+      "icon_id": "10142640",
+      "name": "稼动率比对报表",
+      "font_class": "cropRateRatioStatement",
+      "unicode": "e7f7",
+      "unicode_decimal": 59383
+    },
+    {
+      "icon_id": "19477754",
+      "name": "检验数据差异范围维护",
+      "font_class": "diffRange",
+      "unicode": "ea81",
+      "unicode_decimal": 60033
+    },
+    {
+      "icon_id": "10142641",
+      "name": "分类统计",
+      "font_class": "productClassificationStatistics",
+      "unicode": "e7f8",
+      "unicode_decimal": 59384
+    },
+    {
+      "icon_id": "19477755",
+      "name": "出厂检验记录",
+      "font_class": "gasOQCRecore",
+      "unicode": "ea82",
+      "unicode_decimal": 60034
+    },
+    {
+      "icon_id": "10142642",
+      "name": "人员管理",
+      "font_class": "personnelManagement",
+      "unicode": "e7f9",
+      "unicode_decimal": 59385
+    },
+    {
+      "icon_id": "19477756",
+      "name": "出厂检验录入",
+      "font_class": "gasOQC",
+      "unicode": "ea83",
+      "unicode_decimal": 60035
+    },
+    {
+      "icon_id": "10537638",
+      "name": "工艺参数实时报表",
+      "font_class": "process-realtime-chart",
+      "unicode": "e7fb",
+      "unicode_decimal": 59387
+    },
+    {
+      "icon_id": "19477757",
+      "name": "客诉管理报表",
+      "font_class": "cplManageReport",
+      "unicode": "ea84",
+      "unicode_decimal": 60036
+    },
+    {
+      "icon_id": "10537648",
+      "name": "设备标准差",
+      "font_class": "standard-chart",
+      "unicode": "e7fc",
+      "unicode_decimal": 59388
+    },
+    {
+      "icon_id": "19477758",
+      "name": "材料利用率基础数据表",
+      "font_class": "matUseRatio",
+      "unicode": "ea85",
+      "unicode_decimal": 60037
+    },
+    {
+      "icon_id": "10537730",
+      "name": "设备",
+      "font_class": "shebei",
+      "unicode": "e7fd",
+      "unicode_decimal": 59389
+    },
+    {
+      "icon_id": "19477760",
+      "name": "档案资料清单",
+      "font_class": "gasFileList",
+      "unicode": "ea86",
+      "unicode_decimal": 60038
+    },
+    {
+      "icon_id": "10537731",
+      "name": "能耗",
+      "font_class": "nenghao",
+      "unicode": "e7fe",
+      "unicode_decimal": 59390
+    },
+    {
+      "icon_id": "19477761",
+      "name": "不合格处理通知单",
+      "font_class": "gasNopassBill",
+      "unicode": "ea87",
+      "unicode_decimal": 60039
+    },
+    {
+      "icon_id": "10537732",
+      "name": "质量",
+      "font_class": "zhiliang",
+      "unicode": "e7ff",
+      "unicode_decimal": 59391
+    },
+    {
+      "icon_id": "19477879",
+      "name": "抽样方案",
+      "font_class": "samplingPlan",
+      "unicode": "ea88",
+      "unicode_decimal": 60040
+    },
+    {
+      "icon_id": "10537733",
+      "name": "产品",
+      "font_class": "chanpin",
+      "unicode": "e800",
+      "unicode_decimal": 59392
+    },
+    {
+      "icon_id": "19478806",
+      "name": "燃气自检记录",
+      "font_class": "gasSelRecord",
+      "unicode": "ea89",
+      "unicode_decimal": 60041
+    },
+    {
+      "icon_id": "10827647",
+      "name": "性能",
+      "font_class": "xingneng",
+      "unicode": "e821",
+      "unicode_decimal": 59425
+    },
+    {
+      "icon_id": "19478807",
+      "name": "燃气巡检录入",
+      "font_class": "gasRou",
+      "unicode": "ea8a",
+      "unicode_decimal": 60042
+    },
+    {
+      "icon_id": "10827649",
+      "name": "区域选择",
+      "font_class": "quyuxuanze",
+      "unicode": "e822",
+      "unicode_decimal": 59426
+    },
+    {
+      "icon_id": "19478808",
+      "name": "燃气焊接记录",
+      "font_class": "gasWeldRecord",
+      "unicode": "ea8b",
+      "unicode_decimal": 60043
+    },
+    {
+      "icon_id": "11070447",
+      "name": "转班规则管理",
+      "font_class": "class-rules-manage",
+      "unicode": "e851",
+      "unicode_decimal": 59473
+    },
+    {
+      "icon_id": "19478809",
+      "name": "燃气巡检记录",
+      "font_class": "gasRouRecord",
+      "unicode": "ea8c",
+      "unicode_decimal": 60044
+    },
+    {
+      "icon_id": "11207786",
+      "name": "报警记录",
+      "font_class": "baojingjilu",
+      "unicode": "e854",
+      "unicode_decimal": 59476
+    },
+    {
+      "icon_id": "19478810",
+      "name": "燃气焊接录入",
+      "font_class": "gasWeld",
+      "unicode": "ea8d",
+      "unicode_decimal": 60045
+    },
+    {
+      "icon_id": "11229205",
+      "name": "质量处理通知单",
+      "font_class": "phInsnpbill",
+      "unicode": "e856",
+      "unicode_decimal": 59478
+    },
+    {
+      "icon_id": "19478811",
+      "name": "燃气自检录入",
+      "font_class": "gasSel",
+      "unicode": "ea8e",
+      "unicode_decimal": 60046
+    },
+    {
+      "icon_id": "11229206",
+      "name": "物料关联工序维护",
+      "font_class": "marcRalProcess",
+      "unicode": "e857",
+      "unicode_decimal": 59479
+    },
+    {
+      "icon_id": "19480194",
+      "name": "参数模版项目配置",
+      "font_class": "templateProjectConfig",
+      "unicode": "ea8f",
+      "unicode_decimal": 60047
+    },
+    {
+      "icon_id": "11229207",
+      "name": "质检车间配置",
+      "font_class": "configureQualityWorkshop",
+      "unicode": "e858",
+      "unicode_decimal": 59480
+    },
+    {
+      "icon_id": "19480195",
+      "name": "多级异常报表",
+      "font_class": "multilevelAnomal",
+      "unicode": "ea90",
+      "unicode_decimal": 60048
+    },
+    {
+      "icon_id": "11229210",
+      "name": "不合格品处理流程",
+      "font_class": "phInsnpflow",
+      "unicode": "e859",
+      "unicode_decimal": 59481
+    },
+    {
+      "icon_id": "19480196",
+      "name": "参数模版类别配置",
+      "font_class": "templateCategory",
+      "unicode": "ea91",
+      "unicode_decimal": 60049
+    },
+    {
+      "icon_id": "11229230",
+      "name": "来料检查单",
+      "font_class": "purchaseInsbill",
+      "unicode": "e85a",
+      "unicode_decimal": 59482
+    },
+    {
+      "icon_id": "19480197",
+      "name": "检验类别与工艺关联",
+      "font_class": "checkItemCraft",
+      "unicode": "ea92",
+      "unicode_decimal": 60050
+    },
+    {
+      "icon_id": "11229231",
+      "name": "来料检验记录",
+      "font_class": "phInsRecord",
+      "unicode": "e85b",
+      "unicode_decimal": 59483
+    },
+    {
+      "icon_id": "19480198",
+      "name": "工艺类别维护",
+      "font_class": "craftItem",
+      "unicode": "ea93",
+      "unicode_decimal": 60051
+    },
+    {
+      "icon_id": "11229232",
+      "name": "来料库存地点",
+      "font_class": "stocklocation",
+      "unicode": "e85c",
+      "unicode_decimal": 59484
+    },
+    {
+      "icon_id": "19480199",
+      "name": "工艺参数项目维护",
+      "font_class": "techParamItems",
+      "unicode": "ea94",
+      "unicode_decimal": 60052
+    },
+    {
+      "icon_id": "11232927",
+      "name": "部门主管",
+      "font_class": "qtDepartLeader",
+      "unicode": "e77e",
+      "unicode_decimal": 59262
+    },
+    {
+      "icon_id": "19480200",
+      "name": "燃气批号维护",
+      "font_class": "feedingMaintenance",
+      "unicode": "ea95",
+      "unicode_decimal": 60053
+    },
+    {
+      "icon_id": "11232928",
+      "name": "类别维护",
+      "font_class": "qtType",
+      "unicode": "e77f",
+      "unicode_decimal": 59263
+    },
+    {
+      "icon_id": "19480201",
+      "name": "设备偏差范围",
+      "font_class": "standardRange",
+      "unicode": "ea96",
+      "unicode_decimal": 60054
+    },
+    {
+      "icon_id": "11232929",
+      "name": "打印模版上传",
+      "font_class": "printTemps",
+      "unicode": "e780",
+      "unicode_decimal": 59264
+    },
+    {
+      "icon_id": "19480202",
+      "name": "设备关联参数模版",
+      "font_class": "deviceTemplate",
+      "unicode": "ea97",
+      "unicode_decimal": 60055
+    },
+    {
+      "icon_id": "11232930",
+      "name": "我的问题",
+      "font_class": "myQtList",
+      "unicode": "e781",
+      "unicode_decimal": 59265
+    },
+    {
+      "icon_id": "19612580",
+      "name": "报工预留",
+      "font_class": "issueReservation",
+      "unicode": "ea98",
+      "unicode_decimal": 60056
+    },
+    {
+      "icon_id": "11232931",
+      "name": "问题汇总",
+      "font_class": "qtReport",
+      "unicode": "e782",
+      "unicode_decimal": 59266
+    },
+    {
+      "icon_id": "19646684",
+      "name": "领料审批配置",
+      "font_class": "PickingApprovalConfiguration",
+      "unicode": "ea99",
+      "unicode_decimal": 60057
+    },
+    {
+      "icon_id": "11608914",
+      "name": "点检单管理",
+      "font_class": "inspectionOrderManagement",
+      "unicode": "e872",
+      "unicode_decimal": 59506
+    },
+    {
+      "icon_id": "19646685",
+      "name": "领料班次管理",
+      "font_class": "ShiftManagement",
+      "unicode": "ea9a",
+      "unicode_decimal": 60058
+    },
+    {
+      "icon_id": "11608915",
+      "name": "点检项目标准定义",
+      "font_class": "pointInspectionProjectStandard",
+      "unicode": "e873",
+      "unicode_decimal": 59507
+    },
+    {
+      "icon_id": "19646708",
+      "name": "设备台账追溯",
+      "font_class": "shebeitaizhangzhuisu",
+      "unicode": "ea9b",
+      "unicode_decimal": 60059
+    },
+    {
+      "icon_id": "11608916",
+      "name": "点检基准书",
+      "font_class": "pointInspectionBenchmark",
+      "unicode": "e874",
+      "unicode_decimal": 59508
+    },
+    {
+      "icon_id": "19651900",
+      "name": "待办任务",
+      "font_class": "haveDoList",
+      "unicode": "ea9c",
+      "unicode_decimal": 60060
+    },
+    {
+      "icon_id": "11646026",
+      "name": "移动类型",
+      "font_class": "mobileType",
+      "unicode": "e875",
+      "unicode_decimal": 59509
+    },
+    {
+      "icon_id": "19651966",
+      "name": "纠正预防措施报告",
+      "font_class": "gasCorrectReport",
+      "unicode": "ea9d",
+      "unicode_decimal": 60061
+    },
+    {
+      "icon_id": "11646027",
+      "name": "物料组",
+      "font_class": "materialTeam",
+      "unicode": "e876",
+      "unicode_decimal": 59510
+    },
+    {
+      "icon_id": "19651987",
+      "name": "首检明细报表",
+      "font_class": "gasFirDetailRecord",
+      "unicode": "ea9e",
+      "unicode_decimal": 60062
+    },
+    {
+      "icon_id": "11646028",
+      "name": "设备管理",
+      "font_class": "shebeiguanli",
+      "unicode": "e877",
+      "unicode_decimal": 59511
+    },
+    {
+      "icon_id": "19652013",
+      "name": "巡检明细报表",
+      "font_class": "gasRouDetailRecord",
+      "unicode": "ea9f",
+      "unicode_decimal": 60063
+    },
+    {
+      "icon_id": "11646029",
+      "name": "配件主体维护",
+      "font_class": "partsBodyMaintain",
+      "unicode": "e878",
+      "unicode_decimal": 59512
+    },
+    {
+      "icon_id": "19652039",
+      "name": "自检明细报表",
+      "font_class": "gasSelDetailRecore",
+      "unicode": "eaa0",
+      "unicode_decimal": 60064
+    },
+    {
+      "icon_id": "11646030",
+      "name": "批量关闭派工单",
+      "font_class": "batchCloseDispatchList",
+      "unicode": "e879",
+      "unicode_decimal": 59513
+    },
+    {
+      "icon_id": "19772462",
+      "name": "车间计划查询",
+      "font_class": "prodWorkPlanningSearch",
+      "unicode": "eaa1",
+      "unicode_decimal": 60065
+    },
+    {
+      "icon_id": "11646031",
+      "name": "批量关闭订单",
+      "font_class": "batchCloseOrder",
+      "unicode": "e87a",
+      "unicode_decimal": 59514
+    },
+    {
+      "icon_id": "19772463",
+      "name": "车间计划优化",
+      "font_class": "prodWordPlanOptimizing",
+      "unicode": "eaa2",
+      "unicode_decimal": 60066
+    },
+    {
+      "icon_id": "11646032",
+      "name": "派工单操作日志",
+      "font_class": "operationLogRecord",
+      "unicode": "e87b",
+      "unicode_decimal": 59515
+    },
+    {
+      "icon_id": "19772464",
+      "name": "车间生产计划",
+      "font_class": "prodWorkPlanning",
+      "unicode": "eaa3",
+      "unicode_decimal": 60067
+    },
+    {
+      "icon_id": "11646033",
+      "name": "电阻检测记录",
+      "font_class": "resistanceTestRecord",
+      "unicode": "e87c",
+      "unicode_decimal": 59516
+    },
+    {
+      "icon_id": "19772465",
+      "name": "大屏数据",
+      "font_class": "exportDataCheck",
+      "unicode": "eaa4",
+      "unicode_decimal": 60068
+    },
+    {
+      "icon_id": "11646034",
+      "name": "离线盘点",
+      "font_class": "offlineInventoryPC",
+      "unicode": "e87d",
+      "unicode_decimal": 59517
+    },
+    {
+      "icon_id": "19772466",
+      "name": "订单需求计划",
+      "font_class": "orderDemandPlanning",
+      "unicode": "eaa5",
+      "unicode_decimal": 60069
+    },
+    {
+      "icon_id": "11646035",
+      "name": "仓库收货记录",
+      "font_class": "warehouseReceiptRecord",
+      "unicode": "e87e",
+      "unicode_decimal": 59518
+    },
+    {
+      "icon_id": "19772467",
+      "name": "订单分解",
+      "font_class": "orderBreakdown",
+      "unicode": "eaa6",
+      "unicode_decimal": 60070
+    },
+    {
+      "icon_id": "11646036",
+      "name": "回收料查询",
+      "font_class": "recycledMaterial",
+      "unicode": "e87f",
+      "unicode_decimal": 59519
+    },
+    {
+      "icon_id": "19772468",
+      "name": "订单接收",
+      "font_class": "orderReceiving",
+      "unicode": "eaa7",
+      "unicode_decimal": 60071
+    },
+    {
+      "icon_id": "4100579",
+      "name": "数据基础管理",
+      "font_class": "shujujichuguanli",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "11646037",
+      "name": "仓库过账查询",
+      "font_class": "postingQuery",
+      "unicode": "e880",
+      "unicode_decimal": 59520
+    },
+    {
+      "icon_id": "19772469",
+      "name": "订单指派维护",
+      "font_class": "orderAssignmentMaintenance",
+      "unicode": "eaa8",
+      "unicode_decimal": 60072
+    },
+    {
+      "icon_id": "4100937",
+      "name": "派工单管理",
+      "font_class": "paigongdanguanli",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "11646038",
+      "name": "回收料处理",
+      "font_class": "wasteAllocation",
+      "unicode": "e881",
+      "unicode_decimal": 59521
+    },
+    {
+      "icon_id": "19772470",
+      "name": "订单分发",
+      "font_class": "orderDistribution",
+      "unicode": "eaa9",
+      "unicode_decimal": 60073
+    },
+    {
+      "icon_id": "4101083",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "11649528",
+      "name": "个人签到",
+      "font_class": "personalSignIn",
+      "unicode": "e882",
+      "unicode_decimal": 59522
+    },
+    {
+      "icon_id": "19772471",
+      "name": "我的排程查询",
+      "font_class": "prodSchedulingSearch",
+      "unicode": "eaaa",
+      "unicode_decimal": 60074
+    },
+    {
+      "icon_id": "4101342",
+      "name": "生产订单管理",
+      "font_class": "productOrder",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "11649529",
+      "name": "个人签到记录",
+      "font_class": "personalSignInRecord",
+      "unicode": "e883",
+      "unicode_decimal": 59523
+    },
+    {
+      "icon_id": "19772472",
+      "name": "生产预排",
+      "font_class": "prodWalkthrough",
+      "unicode": "eaab",
+      "unicode_decimal": 60075
+    },
+    {
+      "icon_id": "4101153",
+      "name": "收起",
+      "font_class": "shouqi",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "11649530",
+      "name": "工单追溯",
+      "font_class": "workOrderTraceability",
+      "unicode": "e884",
+      "unicode_decimal": 59524
+    },
+    {
+      "icon_id": "19772473",
+      "name": "生产排程",
+      "font_class": "shengchanpaicheng",
+      "unicode": "eaac",
+      "unicode_decimal": 60076
+    },
+    {
+      "icon_id": "4101238",
+      "name": "设备状态",
+      "font_class": "shebeizhuangtai",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "11649531",
+      "name": "工单验收",
+      "font_class": "workOrderAcceptance",
+      "unicode": "e885",
+      "unicode_decimal": 59525
+    },
+    {
+      "icon_id": "19772474",
+      "name": "物料分类维护",
+      "font_class": "ItemProjectSqa",
+      "unicode": "eaad",
+      "unicode_decimal": 60077
+    },
+    {
+      "icon_id": "4101470",
+      "name": "工单管理",
+      "font_class": "gongdanguanli",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "11649532",
+      "name": "接单平台",
+      "font_class": "orderManagement",
+      "unicode": "e886",
+      "unicode_decimal": 59526
+    },
+    {
+      "icon_id": "19772475",
+      "name": "生产任务单",
+      "font_class": "prodTaskOrder",
+      "unicode": "eaae",
+      "unicode_decimal": 60078
+    },
+    {
+      "icon_id": "4101505",
+      "name": "下拉三角",
+      "font_class": "xialasanjiao",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "11649533",
+      "name": "设备报修",
+      "font_class": "reportForRepairOfEquipment",
+      "unicode": "e887",
+      "unicode_decimal": 59527
+    },
+    {
+      "icon_id": "19772476",
+      "name": "生产任务单查询",
+      "font_class": "prodTaskOrderSearch",
+      "unicode": "eaaf",
+      "unicode_decimal": 60079
+    },
+    {
+      "icon_id": "4101604",
+      "name": "帮助",
+      "font_class": "bangzhu",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "11649534",
+      "name": "我的工单",
+      "font_class": "myWorkOrder",
+      "unicode": "e888",
+      "unicode_decimal": 59528
+    },
+    {
+      "icon_id": "19772477",
+      "name": "下载生产主计划",
+      "font_class": "prodDownPlanning",
+      "unicode": "eab0",
+      "unicode_decimal": 60080
+    },
+    {
+      "icon_id": "4101605",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "11649535",
+      "name": "信箱提醒查询",
+      "font_class": "mailboxReminderQuery",
+      "unicode": "e889",
+      "unicode_decimal": 59529
+    },
+    {
+      "icon_id": "19772478",
+      "name": "供应商评价",
+      "font_class": "supplierScore",
+      "unicode": "eab1",
+      "unicode_decimal": 60081
+    },
+    {
+      "icon_id": "4101826",
+      "name": "用户名",
+      "font_class": "yonghuming",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "11649536",
+      "name": "信箱提醒",
+      "font_class": "mailboxReminder",
+      "unicode": "e88a",
+      "unicode_decimal": 59530
+    },
+    {
+      "icon_id": "19772479",
+      "name": "下发派工单",
+      "font_class": "prodSendOrder",
+      "unicode": "eab2",
+      "unicode_decimal": 60082
+    },
+    {
+      "icon_id": "4101827",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "11777774",
+      "name": "保养时间管理",
+      "font_class": "maintainTimeManagement",
+      "unicode": "e88b",
+      "unicode_decimal": 59531
+    },
+    {
+      "icon_id": "19772480",
+      "name": "资源负荷表",
+      "font_class": "prodResourceLoad",
+      "unicode": "eab3",
+      "unicode_decimal": 60083
+    },
+    {
+      "icon_id": "4225959",
+      "name": "最大化",
+      "font_class": "maximize",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "11777775",
+      "name": "设备登记",
+      "font_class": "pc_equipmentRegistration",
+      "unicode": "e88c",
+      "unicode_decimal": 59532
+    },
+    {
+      "icon_id": "19961413",
+      "name": "供应商评价统计",
+      "font_class": "supplierAnalyse",
+      "unicode": "eab4",
+      "unicode_decimal": 60084
+    },
+    {
+      "icon_id": "4226007",
+      "name": "关闭",
+      "font_class": "closeWin",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "11777776",
+      "name": "组件实体维护",
+      "font_class": "componentEntity",
+      "unicode": "e88d",
+      "unicode_decimal": 59533
+    },
+    {
+      "icon_id": "20073462",
+      "name": "统计项目维护",
+      "font_class": "tongjixiangmuweihu",
+      "unicode": "eab5",
+      "unicode_decimal": 60085
+    },
+    {
+      "icon_id": "4226033",
+      "name": "选择",
+      "font_class": "xuanze",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "11777777",
+      "name": "保养工作日历",
+      "font_class": "maintenanceCalendar",
+      "unicode": "e88e",
+      "unicode_decimal": 59534
+    },
+    {
+      "icon_id": "20145683",
+      "name": "余料登记",
+      "font_class": "registrationOfSurplusMaterials",
+      "unicode": "eab6",
+      "unicode_decimal": 60086
+    },
+    {
+      "icon_id": "4226105",
+      "name": "添加",
+      "font_class": "tianjia",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "11777778",
+      "name": "保养任务单管理",
+      "font_class": "maintainTaskSheetManagement",
+      "unicode": "e88f",
+      "unicode_decimal": 59535
+    },
+    {
+      "icon_id": "20145684",
+      "name": "领料牌号维护",
+      "font_class": "pickingGradeMaintenance",
+      "unicode": "eab7",
+      "unicode_decimal": 60087
+    },
+    {
+      "icon_id": "4226148",
+      "name": "删减",
+      "font_class": "shanjian",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "11777779",
+      "name": "保养基准书",
+      "font_class": "maintainBenchmark",
+      "unicode": "e890",
+      "unicode_decimal": 59536
+    },
+    {
+      "icon_id": "20145685",
+      "name": "投料通知",
+      "font_class": "feedingNotice",
+      "unicode": "eab8",
+      "unicode_decimal": 60088
+    },
+    {
+      "icon_id": "4226180",
+      "name": "向左",
+      "font_class": "xiangzuo",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "12139016",
+      "name": "电阻检测",
+      "font_class": "resistanceDetection",
+      "unicode": "e89c",
+      "unicode_decimal": 59548
+    },
+    {
+      "icon_id": "20253966",
+      "name": "称重仪调校",
+      "font_class": "calibrationOfWeighingInstrument",
+      "unicode": "eab9",
+      "unicode_decimal": 60089
+    },
+    {
+      "icon_id": "4226181",
+      "name": "向右",
+      "font_class": "xiangyou",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "12349346",
+      "name": "注塑机报警日志",
+      "font_class": "alarm-log",
+      "unicode": "e8af",
+      "unicode_decimal": 59567
+    },
+    {
+      "icon_id": "20253967",
+      "name": "超声波调校",
+      "font_class": "ultrasonicCalibration",
+      "unicode": "eaba",
+      "unicode_decimal": 60090
+    },
+    {
+      "icon_id": "4227028",
+      "name": "倒序",
+      "font_class": "daoxu",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "12349347",
+      "name": "注塑工艺参数设定",
+      "font_class": "setting-summary",
+      "unicode": "e8b0",
+      "unicode_decimal": 59568
+    },
+    {
+      "icon_id": "20311001",
+      "name": "超声波记录",
+      "font_class": "ultrasonicInduction",
+      "unicode": "e76f",
+      "unicode_decimal": 59247
+    },
+    {
+      "icon_id": "4227029",
+      "name": "正序",
+      "font_class": "iconzhengxu",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "12349350",
+      "name": "挤出机工艺参数",
+      "font_class": "extrusion-process",
+      "unicode": "e8b2",
+      "unicode_decimal": 59570
+    },
+    {
+      "icon_id": "20621947",
+      "name": "燃气进仓记录",
+      "font_class": "gasEntryRecord",
+      "unicode": "eae3",
+      "unicode_decimal": 60131
+    },
+    {
+      "icon_id": "4227254",
+      "name": "被选中",
+      "font_class": "beixuanzhong",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "12349452",
+      "name": "每模参数查询",
+      "font_class": "mold-params",
+      "unicode": "e8b3",
+      "unicode_decimal": 59571
+    },
+    {
+      "icon_id": "20621948",
+      "name": "休假审批配置",
+      "font_class": "xiujiashenpipeizhi",
+      "unicode": "eae4",
+      "unicode_decimal": 60132
+    },
+    {
+      "icon_id": "4227324",
+      "name": "标签页关闭",
+      "font_class": "biaoqianyeguanbi",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "12349505",
+      "name": "报警推送记录",
+      "font_class": "warn-record",
+      "unicode": "e8b4",
+      "unicode_decimal": 59572
+    },
+    {
+      "icon_id": "20716283",
+      "name": "参数标准库管理",
+      "font_class": "parameterStandard",
+      "unicode": "eaeb",
+      "unicode_decimal": 60139
+    },
+    {
+      "icon_id": "4227342",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "12820547",
+      "name": "抽样单明细报表",
+      "font_class": "sampleReport",
+      "unicode": "e8c1",
+      "unicode_decimal": 59585
+    },
+    {
+      "icon_id": "20716284",
+      "name": "参数管理",
+      "font_class": "parameterManagement",
+      "unicode": "eaec",
+      "unicode_decimal": 60140
+    },
+    {
+      "icon_id": "5312126",
+      "name": "清除文字",
+      "font_class": "icon_clean",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "12820548",
+      "name": "检验项目控制图参数配置",
+      "font_class": "checkItemSetting",
+      "unicode": "e8c2",
+      "unicode_decimal": 59586
+    },
+    {
+      "icon_id": "5312128",
+      "name": "缩小窗口",
+      "font_class": "resize",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "12820549",
+      "name": "采购员信息维护",
+      "font_class": "purchasers",
+      "unicode": "e8c3",
+      "unicode_decimal": 59587
+    },
+    {
+      "icon_id": "5312649",
+      "name": "我的",
+      "font_class": "mine",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "13435392",
+      "name": "模具维修接单平台",
+      "font_class": "receivePlatform",
+      "unicode": "e8cf",
+      "unicode_decimal": 59599
+    },
+    {
+      "icon_id": "5312718",
+      "name": "基础主数据",
+      "font_class": "masterData",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "13435393",
+      "name": "登录日志",
+      "font_class": "loginLog",
+      "unicode": "e8d0",
+      "unicode_decimal": 59600
+    },
+    {
+      "icon_id": "5312719",
+      "name": "车间人力资本管理",
+      "font_class": "workshopManpower",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "13435394",
+      "name": "报表数据导入",
+      "font_class": "mobileReportExcelImport",
+      "unicode": "e8d1",
+      "unicode_decimal": 59601
+    },
+    {
+      "icon_id": "5312721",
+      "name": "设备智能化升级改造",
+      "font_class": "equipmentUpgrades",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "13435395",
+      "name": "服务器管理",
+      "font_class": "serverManagement",
+      "unicode": "e8d2",
+      "unicode_decimal": 59602
+    },
+    {
+      "icon_id": "5312722",
+      "name": "模具管理",
+      "font_class": "mouldManage",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "13435396",
+      "name": "模具维修我的工单",
+      "font_class": "mouldMyWorkOrder",
+      "unicode": "e8d3",
+      "unicode_decimal": 59603
+    },
+    {
+      "icon_id": "5312723",
+      "name": "设备管理系统",
+      "font_class": "deviceManage",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "13435397",
+      "name": "个人配置",
+      "font_class": "personalConfiguration",
+      "unicode": "e8d4",
+      "unicode_decimal": 59604
+    },
+    {
+      "icon_id": "5312724",
+      "name": "生产大数据平台",
+      "font_class": "productionBigData",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "13435398",
+      "name": "模具装卸工单追溯",
+      "font_class": "moldLoadAndUnloadWorkOrderTraceability",
+      "unicode": "e8d5",
+      "unicode_decimal": 59605
+    },
+    {
+      "icon_id": "5312725",
+      "name": "生产管理决策系统",
+      "font_class": "productionManage",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "13435399",
+      "name": "模具装卸接单管理",
+      "font_class": "moldLoadAndUnloadReceivePlatform",
+      "unicode": "e8d6",
+      "unicode_decimal": 59606
+    },
+    {
+      "icon_id": "5312726",
+      "name": "生产能源管理系统",
+      "font_class": "energyManage",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "13435400",
+      "name": "我的代办",
+      "font_class": "wodedaiban",
+      "unicode": "e8d7",
+      "unicode_decimal": 59607
+    },
+    {
+      "icon_id": "5312727",
+      "name": "生产计划执行系统",
+      "font_class": "productionExecute",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "13435401",
+      "name": "装卸单管理",
+      "font_class": "moldLoadAndUnloadManagement",
+      "unicode": "e8d8",
+      "unicode_decimal": 59608
+    },
+    {
+      "icon_id": "5312728",
+      "name": "生产条码系统",
+      "font_class": "materielManage",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "13435402",
+      "name": "角色统计",
+      "font_class": "roleStatistics",
+      "unicode": "e8d9",
+      "unicode_decimal": 59609
+    },
+    {
+      "icon_id": "5312729",
+      "name": "系统管理",
+      "font_class": "manage",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "13435403",
+      "name": "模具装卸我的工单",
+      "font_class": "moldLoadAndUnloadMyWorkOrder",
+      "unicode": "e8da",
+      "unicode_decimal": 59610
+    },
+    {
+      "icon_id": "5312767",
+      "name": "品质管理系统",
+      "font_class": "qualityManage",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "13435404",
+      "name": "手机自定义报表设置",
+      "font_class": "mobileReportSettings",
+      "unicode": "e8db",
+      "unicode_decimal": 59611
+    },
+    {
+      "icon_id": "5313137",
+      "name": "缩小",
+      "font_class": "minimize",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "13435405",
+      "name": "流程提醒设置",
+      "font_class": "processReminderSettings",
+      "unicode": "e8dc",
+      "unicode_decimal": 59612
+    },
+    {
+      "icon_id": "5105131",
+      "name": "代领",
+      "font_class": "dailing",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "13435406",
+      "name": "页面统计",
+      "font_class": "pageStatistics",
+      "unicode": "e8dd",
+      "unicode_decimal": 59613
+    },
+    {
+      "icon_id": "5530591",
+      "name": "收起",
+      "font_class": "shouqi1",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "13435408",
+      "name": "模具报修",
+      "font_class": "mouldRepair",
+      "unicode": "e8de",
+      "unicode_decimal": 59614
+    },
+    {
+      "icon_id": "5530592",
+      "name": "展开",
+      "font_class": "zhankai",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "13435438",
+      "name": "个人设置提醒",
+      "font_class": "personalReminderSettings",
+      "unicode": "e8df",
+      "unicode_decimal": 59615
+    },
+    {
+      "icon_id": "5561287",
+      "name": "报工预留",
+      "font_class": "reportReserve",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    },
+    {
+      "icon_id": "13435920",
+      "name": "模具维修工单验收",
+      "font_class": "mouldWorkOrderAcceptance",
+      "unicode": "e8e0",
+      "unicode_decimal": 59616
+    },
+    {
+      "icon_id": "5561290",
+      "name": "仓位",
+      "font_class": "querywarehouse",
+      "unicode": "e6e7",
+      "unicode_decimal": 59111
+    },
+    {
+      "icon_id": "13436088",
+      "name": "模具维修工单追溯",
+      "font_class": "mouldWorkOrderTraceability",
+      "unicode": "e8e1",
+      "unicode_decimal": 59617
+    },
+    {
+      "icon_id": "5561291",
+      "name": "报工记录",
+      "font_class": "reportWork",
+      "unicode": "e6e8",
+      "unicode_decimal": 59112
+    },
+    {
+      "icon_id": "13482885",
+      "name": "用户统计",
+      "font_class": "qualityUserStat",
+      "unicode": "e8e2",
+      "unicode_decimal": 59618
+    },
+    {
+      "icon_id": "5561292",
+      "name": "不合格原因",
+      "font_class": "failureReason",
+      "unicode": "e6e9",
+      "unicode_decimal": 59113
+    },
+    {
+      "icon_id": "13738823",
+      "name": "屏保设置",
+      "font_class": "screensaverSettings",
+      "unicode": "e8e3",
+      "unicode_decimal": 59619
+    },
+    {
+      "icon_id": "5561293",
+      "name": "报工时间配置",
+      "font_class": "factoryDate",
+      "unicode": "e6ea",
+      "unicode_decimal": 59114
+    },
+    {
+      "icon_id": "13738824",
+      "name": "关联工艺参数",
+      "font_class": "associatedProcessParameters",
+      "unicode": "e8e4",
+      "unicode_decimal": 59620
+    },
+    {
+      "icon_id": "5561294",
+      "name": "不合格列表",
+      "font_class": "unTreatedNoPass",
+      "unicode": "e6eb",
+      "unicode_decimal": 59115
+    },
+    {
+      "icon_id": "13738825",
+      "name": "工艺参数设置",
+      "font_class": "processParameterSetting",
+      "unicode": "e8e5",
+      "unicode_decimal": 59621
+    },
+    {
+      "icon_id": "5561295",
+      "name": "仓位关联车间",
+      "font_class": "relatedPosition",
+      "unicode": "e6ec",
+      "unicode_decimal": 59116
+    },
+    {
+      "icon_id": "13738826",
+      "name": "工艺参数模板设置",
+      "font_class": "processParameterTemplateSetting",
+      "unicode": "e8e6",
+      "unicode_decimal": 59622
+    },
+    {
+      "icon_id": "5561296",
+      "name": "仓位类型",
+      "font_class": "warehouseType",
+      "unicode": "e6ed",
+      "unicode_decimal": 59117
+    },
+    {
+      "icon_id": "13738875",
+      "name": "主页跳转设置",
+      "font_class": "homePageJumpSettings",
+      "unicode": "e8e7",
+      "unicode_decimal": 59623
+    },
+    {
+      "icon_id": "5561297",
+      "name": "工厂管理",
+      "font_class": "gongchangguanli",
+      "unicode": "e6ee",
+      "unicode_decimal": 59118
+    },
+    {
+      "icon_id": "13739478",
+      "name": "不合格原因",
+      "font_class": "add",
+      "unicode": "e8e8",
+      "unicode_decimal": 59624
+    },
+    {
+      "icon_id": "5561298",
+      "name": "待检单列表",
+      "font_class": "unInspectionBill",
+      "unicode": "e6ef",
+      "unicode_decimal": 59119
+    },
+    {
+      "icon_id": "14035968",
+      "name": "登录记录",
+      "font_class": "equipmentRegisterRecord",
+      "unicode": "e8ec",
+      "unicode_decimal": 59628
+    },
+    {
+      "icon_id": "5561299",
+      "name": "车间管理",
+      "font_class": "chejianguanli",
+      "unicode": "e6f0",
+      "unicode_decimal": 59120
+    },
+    {
+      "icon_id": "14043163",
+      "name": "电熔条码打印记录",
+      "font_class": "remeltingBarcode",
+      "unicode": "e8ed",
+      "unicode_decimal": 59629
+    },
+    {
+      "icon_id": "5561300",
+      "name": "工序管理",
+      "font_class": "workProcess",
+      "unicode": "e6f1",
+      "unicode_decimal": 59121
+    },
+    {
+      "icon_id": "14043164",
+      "name": "车间工序维护",
+      "font_class": "workshopProcessMaintenance",
+      "unicode": "e8ee",
+      "unicode_decimal": 59630
+    },
+    {
+      "icon_id": "5561301",
+      "name": "工作区",
+      "font_class": "machine",
+      "unicode": "e6f2",
+      "unicode_decimal": 59122
+    },
+    {
+      "icon_id": "14043165",
+      "name": "车间标签维护",
+      "font_class": "workshopLabelMaintenance",
+      "unicode": "e8ef",
+      "unicode_decimal": 59631
+    },
+    {
+      "icon_id": "5561302",
+      "name": "集团物料",
+      "font_class": "materialGroup",
+      "unicode": "e6f3",
+      "unicode_decimal": 59123
+    },
+    {
+      "icon_id": "14043166",
+      "name": "物料交接",
+      "font_class": "materialHandover",
+      "unicode": "e8f0",
+      "unicode_decimal": 59632
+    },
+    {
+      "icon_id": "5561303",
+      "name": "汇总统计",
+      "font_class": "reportSummary",
+      "unicode": "e6f4",
+      "unicode_decimal": 59124
+    },
+    {
+      "icon_id": "14043167",
+      "name": "废品报工",
+      "font_class": "scrapRecord",
+      "unicode": "e8f1",
+      "unicode_decimal": 59633
+    },
+    {
+      "icon_id": "5561304",
+      "name": "计产单价",
+      "font_class": "unitPrice",
+      "unicode": "e6f5",
+      "unicode_decimal": 59125
+    },
+    {
+      "icon_id": "14738039",
+      "name": "接单管理",
+      "font_class": "adjustingMachineReceivePlatform",
+      "unicode": "e7fa",
+      "unicode_decimal": 59386
+    },
+    {
+      "icon_id": "5561305",
+      "name": "计产类别",
+      "font_class": "productCategory",
+      "unicode": "e6f6",
+      "unicode_decimal": 59126
+    },
+    {
+      "icon_id": "14738040",
+      "name": "零件帐台",
+      "font_class": "partsAccount",
+      "unicode": "e801",
+      "unicode_decimal": 59393
+    },
+    {
+      "icon_id": "5561306",
+      "name": "计量单位",
+      "font_class": "unit",
+      "unicode": "e6f7",
+      "unicode_decimal": 59127
+    },
+    {
+      "icon_id": "14738041",
+      "name": "零件追溯",
+      "font_class": "partsTraceability",
+      "unicode": "e802",
+      "unicode_decimal": 59394
+    },
+    {
+      "icon_id": "5561307",
+      "name": "计量标准",
+      "font_class": "measSta",
+      "unicode": "e6f8",
+      "unicode_decimal": 59128
+    },
+    {
+      "icon_id": "14738042",
+      "name": "调机单管理",
+      "font_class": "adjustingMachineManagement",
+      "unicode": "e803",
+      "unicode_decimal": 59395
+    },
+    {
+      "icon_id": "5561308",
+      "name": "记件工艺",
+      "font_class": "jijiangongyi",
+      "unicode": "e6f9",
+      "unicode_decimal": 59129
+    },
+    {
+      "icon_id": "14778708",
+      "name": "尺寸设置",
+      "font_class": "sizeSettings",
+      "unicode": "e804",
+      "unicode_decimal": 59396
+    },
+    {
+      "icon_id": "5561309",
+      "name": "检验标准",
+      "font_class": "inspectionStandard",
+      "unicode": "e6fa",
+      "unicode_decimal": 59130
+    },
+    {
+      "icon_id": "14778709",
+      "name": "默认首页设置",
+      "font_class": "setPageHome",
+      "unicode": "e805",
+      "unicode_decimal": 59397
+    },
+    {
+      "icon_id": "5561310",
+      "name": "检验项目",
+      "font_class": "inspectionItem",
+      "unicode": "e6fb",
+      "unicode_decimal": 59131
+    },
+    {
+      "icon_id": "14778710",
+      "name": "分辨率设置",
+      "font_class": "resolutionSettings",
+      "unicode": "e806",
+      "unicode_decimal": 59398
+    },
+    {
+      "icon_id": "5561311",
+      "name": "检验类别",
+      "font_class": "inspectionStandardType",
+      "unicode": "e6fc",
+      "unicode_decimal": 59132
+    },
+    {
+      "icon_id": "14778711",
+      "name": "工控机权限设置",
+      "font_class": "ipcAuthority",
+      "unicode": "e807",
+      "unicode_decimal": 59399
+    },
+    {
+      "icon_id": "5561312",
+      "name": "配方管理",
+      "font_class": "peifangguanli",
+      "unicode": "e6fd",
+      "unicode_decimal": 59133
+    },
+    {
+      "icon_id": "14778712",
+      "name": "工控屏类型",
+      "font_class": "ipcPurpose",
+      "unicode": "e808",
+      "unicode_decimal": 59400
+    },
+    {
+      "icon_id": "5561313",
+      "name": "检验项目维护",
+      "font_class": "inspectionManager",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    },
+    {
+      "icon_id": "14778713",
+      "name": "报障设置",
+      "font_class": "securitySetting",
+      "unicode": "e809",
+      "unicode_decimal": 59401
+    },
+    {
+      "icon_id": "5561314",
+      "name": "区域管理",
+      "font_class": "quyuguanli",
+      "unicode": "e6ff",
+      "unicode_decimal": 59135
+    },
+    {
+      "icon_id": "14778714",
+      "name": "工控供应商设置",
+      "font_class": "supplierSettings",
+      "unicode": "e80a",
+      "unicode_decimal": 59402
+    },
+    {
+      "icon_id": "5561315",
+      "name": "库存修改记录",
+      "font_class": "stockChangeRecord",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "14860010",
+      "name": "工控机登记",
+      "font_class": "ipcRegistry",
+      "unicode": "e810",
+      "unicode_decimal": 59408
+    },
+    {
+      "icon_id": "5561316",
+      "name": "实际物料查询",
+      "font_class": "shijiwuliaochaxun",
+      "unicode": "e701",
+      "unicode_decimal": 59137
+    },
+    {
+      "icon_id": "14860011",
+      "name": "工控机监控",
+      "font_class": "ipcMonitor",
+      "unicode": "e811",
+      "unicode_decimal": 59409
+    },
+    {
+      "icon_id": "5561317",
+      "name": "实际物料",
+      "font_class": "realMaterial",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "14860012",
+      "name": "模具装卸工单验收",
+      "font_class": "moldLoadAndUnloadAcceptance",
+      "unicode": "e812",
+      "unicode_decimal": 59410
+    },
+    {
+      "icon_id": "5561318",
+      "name": "首检记录",
+      "font_class": "firInspectionBill",
+      "unicode": "e703",
+      "unicode_decimal": 59139
+    },
+    {
+      "icon_id": "14860013",
+      "name": "工控机管理",
+      "font_class": "ipcManagement",
+      "unicode": "e813",
+      "unicode_decimal": 59411
+    },
+    {
+      "icon_id": "5561319",
+      "name": "位置库存",
+      "font_class": "positionStock",
+      "unicode": "e704",
+      "unicode_decimal": 59140
+    },
+    {
+      "icon_id": "14867620",
+      "name": "工单验收",
+      "font_class": "adjustingMachineManageAcceptance",
+      "unicode": "e814",
+      "unicode_decimal": 59412
+    },
+    {
+      "icon_id": "5561320",
+      "name": "首检数据明细",
+      "font_class": "firInspectionReport",
+      "unicode": "e705",
+      "unicode_decimal": 59141
+    },
+    {
+      "icon_id": "14867621",
+      "name": "工单追溯",
+      "font_class": "adjustingMachineWorkOrderTraceability",
+      "unicode": "e815",
+      "unicode_decimal": 59413
+    },
+    {
+      "icon_id": "5561321",
+      "name": "位置配置",
+      "font_class": "posConfig",
+      "unicode": "e706",
+      "unicode_decimal": 59142
+    },
+    {
+      "icon_id": "14867622",
+      "name": "接单管理",
+      "font_class": "jiedanguanli1",
+      "unicode": "e816",
+      "unicode_decimal": 59414
+    },
+    {
+      "icon_id": "5561322",
+      "name": "位置",
+      "font_class": "position",
+      "unicode": "e707",
+      "unicode_decimal": 59143
+    },
+    {
+      "icon_id": "14867623",
+      "name": "我的工单",
+      "font_class": "adjustingMachineMyWorkOrder",
+      "unicode": "e817",
+      "unicode_decimal": 59415
+    },
+    {
+      "icon_id": "5561323",
+      "name": "我的待办",
+      "font_class": "toDoList",
+      "unicode": "e708",
+      "unicode_decimal": 59144
+    },
+    {
+      "icon_id": "15111562",
+      "name": "配方机数据",
+      "font_class": "dispenser-chart",
+      "unicode": "e934",
+      "unicode_decimal": 59700
+    },
+    {
+      "icon_id": "5561324",
+      "name": "物料存放",
+      "font_class": "ralMaterialPlace",
+      "unicode": "e709",
+      "unicode_decimal": 59145
+    },
+    {
+      "icon_id": "15111563",
+      "name": "香港赋码物料维护",
+      "font_class": "materialGroupHK",
+      "unicode": "e935",
+      "unicode_decimal": 59701
+    },
+    {
+      "icon_id": "5561325",
+      "name": "物料计产单价",
+      "font_class": "ralMarcUnitPrice",
+      "unicode": "e70a",
+      "unicode_decimal": 59146
+    },
+    {
+      "icon_id": "15694087",
+      "name": "扫码录入",
+      "font_class": "reportWorkEnter",
+      "unicode": "e951",
+      "unicode_decimal": 59729
+    },
+    {
+      "icon_id": "5561326",
+      "name": "物料标准关联",
+      "font_class": "ralMarcInspection",
+      "unicode": "e70b",
+      "unicode_decimal": 59147
+    },
+    {
+      "icon_id": "15694088",
+      "name": "班组称重",
+      "font_class": "banzuchengzhong",
+      "unicode": "e952",
+      "unicode_decimal": 59730
+    },
+    {
+      "icon_id": "5561327",
+      "name": "物料管理",
+      "font_class": "wuliaoguanli",
+      "unicode": "e70c",
+      "unicode_decimal": 59148
+    },
+    {
+      "icon_id": "15694089",
+      "name": "特定订单跟踪",
+      "font_class": "specialOrderTrackingReport",
+      "unicode": "e953",
+      "unicode_decimal": 59731
+    },
+    {
+      "icon_id": "5561328",
+      "name": "物料计量标准",
+      "font_class": "ralMarcMeasue",
+      "unicode": "e70d",
+      "unicode_decimal": 59149
+    },
+    {
+      "icon_id": "15694091",
+      "name": "班组机台维护",
+      "font_class": "wasteRegistered",
+      "unicode": "e954",
+      "unicode_decimal": 59732
+    },
+    {
+      "icon_id": "5561329",
+      "name": "物料库存",
+      "font_class": "materialStock",
+      "unicode": "e70e",
+      "unicode_decimal": 59150
+    },
+    {
+      "icon_id": "15694092",
+      "name": "重量对比报表",
+      "font_class": "weightComparisonReport",
+      "unicode": "e955",
+      "unicode_decimal": 59733
+    },
+    {
+      "icon_id": "5561330",
+      "name": "物料维护",
+      "font_class": "wuliaoweihu",
+      "unicode": "e70f",
+      "unicode_decimal": 59151
+    },
+    {
+      "icon_id": "15694093",
+      "name": "报工配置",
+      "font_class": "reportWorkSetting",
+      "unicode": "e956",
+      "unicode_decimal": 59734
+    },
+    {
+      "icon_id": "5561331",
+      "name": "巡检记录",
+      "font_class": "rouInspectionBill",
+      "unicode": "e710",
+      "unicode_decimal": 59152
+    },
+    {
+      "icon_id": "15694094",
+      "name": "材料维护",
+      "font_class": "materialMaintenance",
+      "unicode": "e957",
+      "unicode_decimal": 59735
+    },
+    {
+      "icon_id": "5561332",
+      "name": "性能项目",
+      "font_class": "performanceItem",
+      "unicode": "e711",
+      "unicode_decimal": 59153
+    },
+    {
+      "icon_id": "15694095",
+      "name": "车牌维护",
+      "font_class": "carNoMasterData",
+      "unicode": "e958",
+      "unicode_decimal": 59736
+    },
+    {
+      "icon_id": "5561333",
+      "name": "已处理质量通知单",
+      "font_class": "treatedNoPass",
+      "unicode": "e712",
+      "unicode_decimal": 59154
+    },
+    {
+      "icon_id": "15694096",
+      "name": "废品比例登记",
+      "font_class": "ipc_registeredWasteProportion",
+      "unicode": "e959",
+      "unicode_decimal": 59737
+    },
+    {
+      "icon_id": "5561335",
+      "name": "巡检数据",
+      "font_class": "rouInspectionReport",
+      "unicode": "e713",
+      "unicode_decimal": 59155
+    },
+    {
+      "icon_id": "15694097",
+      "name": "订单对比报表",
+      "font_class": "orderComparisonReport",
+      "unicode": "e95a",
+      "unicode_decimal": 59738
+    },
+    {
+      "icon_id": "5561337",
+      "name": "自检数据明细",
+      "font_class": "selInspectionReport",
+      "unicode": "e714",
+      "unicode_decimal": 59156
+    },
+    {
+      "icon_id": "15694100",
+      "name": "废品重量比例分配",
+      "font_class": "ProportionalDistributionWaste",
+      "unicode": "e95b",
+      "unicode_decimal": 59739
+    },
+    {
+      "icon_id": "5561338",
+      "name": "质量体系",
+      "font_class": "qualitySystem",
+      "unicode": "e715",
+      "unicode_decimal": 59157
+    },
+    {
+      "icon_id": "15694101",
+      "name": "废品物料",
+      "font_class": "wasteMaterial",
+      "unicode": "e95c",
+      "unicode_decimal": 59740
+    },
+    {
+      "icon_id": "5561343",
+      "name": "组织架构",
+      "font_class": "organizationalManagement",
+      "unicode": "e716",
+      "unicode_decimal": 59158
+    },
+    {
+      "icon_id": "15694102",
+      "name": "激活订单",
+      "font_class": "activateOrderPC",
+      "unicode": "e95d",
+      "unicode_decimal": 59741
+    },
+    {
+      "icon_id": "5570331",
+      "name": "自检记录",
+      "font_class": "selInspectionBill",
+      "unicode": "e717",
+      "unicode_decimal": 59159
+    },
+    {
+      "icon_id": "15694103",
+      "name": "离线上传",
+      "font_class": "lixianshangchuan",
+      "unicode": "e95e",
+      "unicode_decimal": 59742
+    },
+    {
+      "icon_id": "5876529",
+      "name": "派工监控",
+      "font_class": "dispatchMonitorPC",
+      "unicode": "e718",
+      "unicode_decimal": 59160
+    },
+    {
+      "icon_id": "15694104",
+      "name": "批量激活派工单",
+      "font_class": "activateDispatchOrders",
+      "unicode": "e95f",
+      "unicode_decimal": 59743
+    },
+    {
+      "icon_id": "5876531",
+      "name": "数据导入",
+      "font_class": "templateImport",
+      "unicode": "e71a",
+      "unicode_decimal": 59162
+    },
+    {
+      "icon_id": "15694105",
+      "name": "皮重设置",
+      "font_class": "tareWeightSet",
+      "unicode": "e960",
+      "unicode_decimal": 59744
+    },
+    {
+      "icon_id": "5876532",
+      "name": "DEMO",
+      "font_class": "demo",
+      "unicode": "e71b",
+      "unicode_decimal": 59163
+    },
+    {
+      "icon_id": "15694166",
+      "name": "班组废品称重记录",
+      "font_class": "GroupWasteWeighingRecords",
+      "unicode": "e961",
+      "unicode_decimal": 59745
+    },
+    {
+      "icon_id": "5876533",
+      "name": "计量单位换算",
+      "font_class": "materialUnit",
+      "unicode": "e71c",
+      "unicode_decimal": 59164
+    },
+    {
+      "icon_id": "15694168",
+      "name": "废品来源",
+      "font_class": "sourcesOfWaste",
+      "unicode": "e962",
+      "unicode_decimal": 59746
+    },
+    {
+      "icon_id": "6167660",
+      "name": "换单管理",
+      "font_class": "exchangeOrder",
+      "unicode": "e71d",
+      "unicode_decimal": 59165
+    },
+    {
+      "icon_id": "15694170",
+      "name": "废品比例记录",
+      "font_class": "WasteProportionRecord",
+      "unicode": "e963",
+      "unicode_decimal": 59747
+    },
+    {
+      "icon_id": "6167661",
+      "name": "自检录入",
+      "font_class": "ipcNewSel",
+      "unicode": "e71e",
+      "unicode_decimal": 59166
+    },
+    {
+      "icon_id": "15730930",
+      "name": "消息跳转设置",
+      "font_class": "messageJumpSettings",
+      "unicode": "e964",
+      "unicode_decimal": 59748
+    },
+    {
+      "icon_id": "6167662",
+      "name": "抽样单查询",
+      "font_class": "samplingSingleQuery",
+      "unicode": "e71f",
+      "unicode_decimal": 59167
+    },
+    {
+      "icon_id": "15730931",
+      "name": "模具入库",
+      "font_class": "moldInAndOut",
+      "unicode": "e965",
+      "unicode_decimal": 59749
+    },
+    {
+      "icon_id": "6167663",
+      "name": "首检录入",
+      "font_class": "ipcNewFir",
+      "unicode": "e720",
+      "unicode_decimal": 59168
+    },
+    {
+      "icon_id": "15730932",
+      "name": "设备调拨审批",
+      "font_class": "transferApproval",
+      "unicode": "e966",
+      "unicode_decimal": 59750
+    },
+    {
+      "icon_id": "6167664",
+      "name": "订单管理",
+      "font_class": "orderManagePC",
+      "unicode": "e721",
+      "unicode_decimal": 59169
+    },
+    {
+      "icon_id": "15730934",
+      "name": "故障原因配置",
+      "font_class": "faultDescriptConfiguration",
+      "unicode": "e968",
+      "unicode_decimal": 59752
+    },
+    {
+      "icon_id": "6167665",
+      "name": "巡检录入",
+      "font_class": "ipcNewRou",
+      "unicode": "e722",
+      "unicode_decimal": 59170
+    },
+    {
+      "icon_id": "15745377",
+      "name": "小模具管理",
+      "font_class": "smallMoldManagement",
+      "unicode": "e969",
+      "unicode_decimal": 59753
+    },
+    {
+      "icon_id": "6345818",
+      "name": "数据流",
+      "font_class": "dataitem-detail",
+      "unicode": "e719",
+      "unicode_decimal": 59161
+    },
+    {
+      "icon_id": "15809979",
+      "name": "品管审批",
+      "font_class": "qualityControlApproval",
+      "unicode": "e96a",
+      "unicode_decimal": 59754
+    },
+    {
+      "icon_id": "6345819",
+      "name": "数据监控",
+      "font_class": "collection-monitor",
+      "unicode": "e72a",
+      "unicode_decimal": 59178
+    },
+    {
+      "icon_id": "15809980",
+      "name": "模具交接",
+      "font_class": "mouldHandover",
+      "unicode": "e96b",
+      "unicode_decimal": 59755
+    },
+    {
+      "icon_id": "6345820",
+      "name": "项目管理",
+      "font_class": "prjManage",
+      "unicode": "e72b",
+      "unicode_decimal": 59179
+    },
+    {
+      "icon_id": "15809981",
+      "name": "模具交接回溯",
+      "font_class": "moldHandoverTraceability",
+      "unicode": "e96c",
+      "unicode_decimal": 59756
+    },
+    {
+      "icon_id": "6345821",
+      "name": "采集对象",
+      "font_class": "collection-list",
+      "unicode": "e72c",
+      "unicode_decimal": 59180
+    },
+    {
+      "icon_id": "15809982",
+      "name": "个人签到设置",
+      "font_class": "personalSignInSetting",
+      "unicode": "e96d",
+      "unicode_decimal": 59757
+    },
+    {
+      "icon_id": "6345822",
+      "name": "配置下发",
+      "font_class": "send-config",
+      "unicode": "e72d",
+      "unicode_decimal": 59181
+    },
+    {
+      "icon_id": "15809983",
+      "name": "模具归还",
+      "font_class": "moldReturn",
+      "unicode": "e96e",
+      "unicode_decimal": 59758
+    },
+    {
+      "icon_id": "6345823",
+      "name": "OTA管理",
+      "font_class": "ota-manage",
+      "unicode": "e72e",
+      "unicode_decimal": 59182
+    },
+    {
+      "icon_id": "15809984",
+      "name": "模具接收",
+      "font_class": "receivingProcessing",
+      "unicode": "e96f",
+      "unicode_decimal": 59759
+    },
+    {
+      "icon_id": "6345936",
+      "name": "数据采集",
+      "font_class": "dataAcquisition",
+      "unicode": "e72f",
+      "unicode_decimal": 59183
+    },
+    {
+      "icon_id": "15809985",
+      "name": "模具调度",
+      "font_class": "mouldScheduling",
+      "unicode": "e970",
+      "unicode_decimal": 59760
+    },
+    {
+      "icon_id": "6512777",
+      "name": "检验依据",
+      "font_class": "inspectionBasis",
+      "unicode": "e723",
+      "unicode_decimal": 59171
+    },
+    {
+      "icon_id": "15809986",
+      "name": "模具返修",
+      "font_class": "mouldRepairApply",
+      "unicode": "e971",
+      "unicode_decimal": 59761
+    },
+    {
+      "icon_id": "6512778",
+      "name": "抽样单审批",
+      "font_class": "samplingSingleApproval",
+      "unicode": "e724",
+      "unicode_decimal": 59172
+    },
+    {
+      "icon_id": "16102498",
+      "name": "出勤核算",
+      "font_class": "attendanceAccount",
+      "unicode": "e997",
+      "unicode_decimal": 59799
+    },
+    {
+      "icon_id": "6512779",
+      "name": "自定义检验",
+      "font_class": "customInspection",
+      "unicode": "e725",
+      "unicode_decimal": 59173
+    },
+    {
+      "icon_id": "16102499",
+      "name": "排版配置",
+      "font_class": "schedulingConfiguration",
+      "unicode": "e998",
+      "unicode_decimal": 59800
+    },
+    {
+      "icon_id": "6582736",
+      "name": "称重设备管理",
+      "font_class": "scaleManage",
+      "unicode": "e726",
+      "unicode_decimal": 59174
+    },
+    {
+      "icon_id": "16102500",
+      "name": "人员班组",
+      "font_class": "staffTeam",
+      "unicode": "e999",
+      "unicode_decimal": 59801
+    },
+    {
+      "icon_id": "6582737",
+      "name": "物料收缩时间维护",
+      "font_class": "materalcShirTime",
+      "unicode": "e727",
+      "unicode_decimal": 59175
+    },
+    {
+      "icon_id": "16102501",
+      "name": "人员档案",
+      "font_class": "personnelFile",
+      "unicode": "e99a",
+      "unicode_decimal": 59802
+    },
+    {
+      "icon_id": "6690296",
+      "name": "采集模式管理",
+      "font_class": "collection-mode",
+      "unicode": "e728",
+      "unicode_decimal": 59176
+    },
+    {
+      "icon_id": "16102502",
+      "name": "休假类型",
+      "font_class": "leaveType",
+      "unicode": "e99b",
+      "unicode_decimal": 59803
+    },
+    {
+      "icon_id": "6690297",
+      "name": "设备利用率报表",
+      "font_class": "ratio-chart",
+      "unicode": "e729",
+      "unicode_decimal": 59177
+    },
+    {
+      "icon_id": "16102503",
+      "name": "审批配置",
+      "font_class": "approvalConfiguration",
+      "unicode": "e99c",
+      "unicode_decimal": 59804
+    },
+    {
+      "icon_id": "6690298",
+      "name": "设备生产周期报表",
+      "font_class": "material-chart",
+      "unicode": "e732",
+      "unicode_decimal": 59186
+    },
+    {
+      "icon_id": "16102504",
+      "name": "补助项目",
+      "font_class": "subsidyProject",
+      "unicode": "e99d",
+      "unicode_decimal": 59805
+    },
+    {
+      "icon_id": "6860904",
+      "name": "电话",
+      "font_class": "dianhua1",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "16102505",
+      "name": "分值设置",
+      "font_class": "scoreSet",
+      "unicode": "e99e",
+      "unicode_decimal": 59806
+    },
+    {
+      "icon_id": "6915897",
+      "name": "自检明细报表",
+      "font_class": "selInsReport",
+      "unicode": "e730",
+      "unicode_decimal": 59184
+    },
+    {
+      "icon_id": "16235034",
+      "name": "换单",
+      "font_class": "moldExchangeOrder",
+      "unicode": "e9a0",
+      "unicode_decimal": 59808
+    },
+    {
+      "icon_id": "6915898",
+      "name": "首检明细报表",
+      "font_class": "firInsReport",
+      "unicode": "e731",
+      "unicode_decimal": 59185
+    },
+    {
+      "icon_id": "16235035",
+      "name": "模具报废审批",
+      "font_class": "dieScrapApproval",
+      "unicode": "e9a1",
+      "unicode_decimal": 59809
+    },
+    {
+      "icon_id": "6915899",
+      "name": "巡检明细报表",
+      "font_class": "rouInsReport",
+      "unicode": "e733",
+      "unicode_decimal": 59187
+    },
+    {
+      "icon_id": "16235036",
+      "name": "台账修改追溯",
+      "font_class": "retrospectionOfAccountModification",
+      "unicode": "e9a2",
+      "unicode_decimal": 59810
+    },
+    {
+      "icon_id": "7089852",
+      "name": "检测次数统计",
+      "font_class": "insTimesReport",
+      "unicode": "e734",
+      "unicode_decimal": 59188
+    },
+    {
+      "icon_id": "16235037",
+      "name": "模具移动追溯",
+      "font_class": "mouldMovementTraceability",
+      "unicode": "e9a3",
+      "unicode_decimal": 59811
+    },
+    {
+      "icon_id": "7144761",
+      "name": "产量报表",
+      "font_class": "yieldReport",
+      "unicode": "e735",
+      "unicode_decimal": 59189
+    },
+    {
+      "icon_id": "16804258",
+      "name": "模具下单",
+      "font_class": "mojuxiadan",
+      "unicode": "e9cb",
+      "unicode_decimal": 59851
+    },
+    {
+      "icon_id": "7144765",
+      "name": "自动产量交接",
+      "font_class": "autoYieldTransfer",
+      "unicode": "e736",
+      "unicode_decimal": 59190
+    },
+    {
+      "icon_id": "17228076",
+      "name": "工艺参数推荐",
+      "font_class": "recommend",
+      "unicode": "e9dc",
+      "unicode_decimal": 59868
+    },
+    {
+      "icon_id": "7157570",
+      "name": "质量处理次数统计",
+      "font_class": "qualityBillReport",
+      "unicode": "e737",
+      "unicode_decimal": 59191
+    },
+    {
+      "icon_id": "17228100",
+      "name": "设备推荐",
+      "font_class": "recommendDevice",
+      "unicode": "e9dd",
+      "unicode_decimal": 59869
+    },
+    {
+      "icon_id": "7252143",
+      "name": "重量监控报表",
+      "font_class": "weight-chart",
+      "unicode": "e738",
+      "unicode_decimal": 59192
+    },
+    {
+      "icon_id": "17229088",
+      "name": "模块管理",
+      "font_class": "moduleManage",
+      "unicode": "e9de",
+      "unicode_decimal": 59870
+    },
+    {
+      "icon_id": "7362007",
+      "name": "派工校验",
+      "font_class": "dispatchCheck",
+      "unicode": "e739",
+      "unicode_decimal": 59193
+    },
+    {
+      "icon_id": "17229089",
+      "name": "数据权限",
+      "font_class": "dataRoleManage",
+      "unicode": "e9df",
+      "unicode_decimal": 59871
+    },
+    {
+      "icon_id": "7362008",
+      "name": "派工监控报表",
+      "font_class": "dispatchMonitorReport",
+      "unicode": "e73a",
+      "unicode_decimal": 59194
+    },
+    {
+      "icon_id": "17229090",
+      "name": "用户管理",
+      "font_class": "userManage",
+      "unicode": "e9e0",
+      "unicode_decimal": 59872
+    },
+    {
+      "icon_id": "7362009",
+      "name": "订单管理报表",
+      "font_class": "orderManageReport",
+      "unicode": "e73b",
+      "unicode_decimal": 59195
+    },
+    {
+      "icon_id": "17229091",
+      "name": "扫码配置",
+      "font_class": "scanConfiguration",
+      "unicode": "e9e1",
+      "unicode_decimal": 59873
+    },
+    {
+      "icon_id": "7575034",
+      "name": "质量班别配置",
+      "font_class": "qualityClassSet",
+      "unicode": "e73c",
+      "unicode_decimal": 59196
+    },
+    {
+      "icon_id": "17229092",
+      "name": "组织管理",
+      "font_class": "orgManage",
+      "unicode": "e9e2",
+      "unicode_decimal": 59874
+    },
+    {
+      "icon_id": "7875541",
+      "name": "抽样单报表",
+      "font_class": "samplingReport",
+      "unicode": "e73d",
+      "unicode_decimal": 59197
+    },
+    {
+      "icon_id": "17230307",
+      "name": "字典导入",
+      "font_class": "dictionaryImport",
+      "unicode": "e9e3",
+      "unicode_decimal": 59875
+    },
+    {
+      "icon_id": "7875542",
+      "name": "性能检测次数统计",
+      "font_class": "performInsTimesReport",
+      "unicode": "e73e",
+      "unicode_decimal": 59198
+    },
+    {
+      "icon_id": "17230308",
+      "name": "数据源配置",
+      "font_class": "dataSourceDeploy",
+      "unicode": "e9e4",
+      "unicode_decimal": 59876
+    },
+    {
+      "icon_id": "7875543",
+      "name": "首检配件统计录入",
+      "font_class": "ipcNewPartsFir",
+      "unicode": "e73f",
+      "unicode_decimal": 59199
+    },
+    {
+      "icon_id": "17230309",
+      "name": "元数据管理",
+      "font_class": "dataBaseManage",
+      "unicode": "e9e5",
+      "unicode_decimal": 59877
+    },
+    {
+      "icon_id": "8021549",
+      "name": "设备控制",
+      "font_class": "online-monitor",
+      "unicode": "e74b",
+      "unicode_decimal": 59211
+    },
+    {
+      "icon_id": "17230310",
+      "name": "字典管理",
+      "font_class": "dictionaryManagement",
+      "unicode": "e9e6",
+      "unicode_decimal": 59878
+    },
+    {
+      "icon_id": "8092388",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "17450992",
+      "name": "标签管理",
+      "font_class": "labelManagement",
+      "unicode": "e9e8",
+      "unicode_decimal": 59880
+    },
+    {
+      "icon_id": "8238538",
+      "name": "预留生成控制配置",
+      "font_class": "obligateGenerate",
+      "unicode": "e74d",
+      "unicode_decimal": 59213
+    },
+    {
+      "icon_id": "17450993",
+      "name": "机台称废品",
+      "font_class": "ipc_machineWeighting",
+      "unicode": "e9e9",
+      "unicode_decimal": 59881
+    },
+    {
+      "icon_id": "8238539",
+      "name": "仓位报工日期",
+      "font_class": "positionFactoryDate",
+      "unicode": "e74e",
+      "unicode_decimal": 59214
+    },
+    {
+      "icon_id": "17450994",
+      "name": "转运人统计报表",
+      "font_class": "transhipmentReport",
+      "unicode": "e9ea",
+      "unicode_decimal": 59882
+    },
+    {
+      "icon_id": "8338086",
+      "name": "顶班系统查询",
+      "font_class": "classSetInfoList",
+      "unicode": "e750",
+      "unicode_decimal": 59216
+    },
+    {
+      "icon_id": "17728268",
+      "name": "订单指派",
+      "font_class": "orderAssign",
+      "unicode": "e9fa",
+      "unicode_decimal": 59898
+    },
+    {
+      "icon_id": "8338087",
+      "name": "产品质量管控图",
+      "font_class": "QCReport",
+      "unicode": "e751",
+      "unicode_decimal": 59217
+    },
+    {
+      "icon_id": "17728269",
+      "name": "指派追溯",
+      "font_class": "assignTraceBack",
+      "unicode": "e9fb",
+      "unicode_decimal": 59899
+    },
+    {
+      "icon_id": "8338088",
+      "name": "电子秤维护",
+      "font_class": "electronicScale",
+      "unicode": "e752",
+      "unicode_decimal": 59218
+    },
+    {
+      "icon_id": "17728270",
+      "name": "模具下单",
+      "font_class": "moldOrder",
+      "unicode": "e9fc",
+      "unicode_decimal": 59900
+    },
+    {
+      "icon_id": "8338089",
+      "name": "性能统计类维护",
+      "font_class": "qmMstSpcproduct",
+      "unicode": "e753",
+      "unicode_decimal": 59219
+    },
+    {
+      "icon_id": "17728271",
+      "name": "模具使用状态报表",
+      "font_class": "moldUsageStatusReport",
+      "unicode": "e9fd",
+      "unicode_decimal": 59901
+    },
+    {
+      "icon_id": "8338090",
+      "name": "性能项目指标维护",
+      "font_class": "qmRalCountitemPiquota",
+      "unicode": "e754",
+      "unicode_decimal": 59220
+    },
+    {
+      "icon_id": "17728272",
+      "name": "指派分组",
+      "font_class": "commonGroupSetting",
+      "unicode": "e9fe",
+      "unicode_decimal": 59902
+    },
+    {
+      "icon_id": "8338091",
+      "name": "质量运行数据关联",
+      "font_class": "operationDataRelation",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    },
+    {
+      "icon_id": "17728445",
+      "name": "扫一扫设置",
+      "font_class": "saoyisaoshezhi",
+      "unicode": "e9ff",
+      "unicode_decimal": 59903
+    },
+    {
+      "icon_id": "8338092",
+      "name": "性能项目参数维护",
+      "font_class": "qmRalSpcproductPfmitem",
+      "unicode": "e756",
+      "unicode_decimal": 59222
+    },
+    {
+      "icon_id": "17728446",
+      "name": "物料模具关联",
+      "font_class": "materialRelativeMold",
+      "unicode": "ea00",
+      "unicode_decimal": 59904
+    },
+    {
+      "icon_id": "8338093",
+      "name": "质检员交接班记录",
+      "font_class": "handoverRecored",
+      "unicode": "e757",
+      "unicode_decimal": 59223
+    },
+    {
+      "icon_id": "17866790",
+      "name": "物料人员管理",
+      "font_class": "materialPersonnelMmaintenance",
+      "unicode": "ea09",
+      "unicode_decimal": 59913
+    },
+    {
+      "icon_id": "8338094",
+      "name": "用户统计",
+      "font_class": "userStatistics",
+      "unicode": "e758",
+      "unicode_decimal": 59224
+    },
+    {
+      "icon_id": "17866791",
+      "name": "物料审批",
+      "font_class": "materialApproval",
+      "unicode": "ea0a",
+      "unicode_decimal": 59914
+    },
+    {
+      "icon_id": "8338095",
+      "name": "质量运行数据汇总报表",
+      "font_class": "operationDataReport",
+      "unicode": "e759",
+      "unicode_decimal": 59225
+    },
+    {
+      "icon_id": "17866792",
+      "name": "属性设置",
+      "font_class": "propertySettings",
+      "unicode": "ea0b",
+      "unicode_decimal": 59915
+    },
+    {
+      "icon_id": "8338096",
+      "name": "质量运行数据配置",
+      "font_class": "operationDataSet",
+      "unicode": "e75a",
+      "unicode_decimal": 59226
+    },
+    {
+      "icon_id": "17866793",
+      "name": "属性分组",
+      "font_class": "propertyGroup",
+      "unicode": "ea0c",
+      "unicode_decimal": 59916
+    },
+    {
+      "icon_id": "8351171",
+      "name": "打印条码记录表",
+      "font_class": "printBarCodeRecordTable",
+      "unicode": "e75b",
+      "unicode_decimal": 59227
+    },
+    {
+      "icon_id": "18463339",
+      "name": "大屏配置",
+      "font_class": "largeScreenConfiguration",
+      "unicode": "ea2e",
+      "unicode_decimal": 59950
+    },
+    {
+      "icon_id": "8351172",
+      "name": "条码信息查询",
+      "font_class": "barcodeInformationQuery",
+      "unicode": "e75c",
+      "unicode_decimal": 59228
+    },
+    {
+      "icon_id": "18463340",
+      "name": "设备使用情况报表",
+      "font_class": "shebeishiyongqingkuangbaobiao",
+      "unicode": "ea2f",
+      "unicode_decimal": 59951
+    },
+    {
+      "icon_id": "8439861",
+      "name": "待办任务",
+      "font_class": "cplhandlist",
+      "unicode": "e75d",
+      "unicode_decimal": 59229
+    },
+    {
+      "icon_id": "18463341",
+      "name": "大区管理",
+      "font_class": "regionalManagement",
+      "unicode": "ea30",
+      "unicode_decimal": 59952
+    },
+    {
+      "icon_id": "8439862",
+      "name": "客户投诉记录表",
+      "font_class": "cplrecord",
+      "unicode": "e75e",
+      "unicode_decimal": 59230
+    },
+    {
+      "icon_id": "18463342",
+      "name": "设备类型子类型设置",
+      "font_class": "deviceTypeSubclassSettings",
+      "unicode": "ea31",
+      "unicode_decimal": 59953
+    },
+    {
+      "icon_id": "8439863",
+      "name": "客诉责任部门维护",
+      "font_class": "cpldutydepart",
+      "unicode": "e75f",
+      "unicode_decimal": 59231
+    },
+    {
+      "icon_id": "18463344",
+      "name": "物料分发",
+      "font_class": "wuliaofenfa",
+      "unicode": "ea32",
+      "unicode_decimal": 59954
+    },
+    {
+      "icon_id": "8999415",
+      "name": "设备状态监控",
+      "font_class": "device-monitor",
+      "unicode": "e773",
+      "unicode_decimal": 59251
+    },
+    {
+      "icon_id": "18463345",
+      "name": "物料追溯",
+      "font_class": "materialTraceability",
+      "unicode": "ea33",
+      "unicode_decimal": 59955
+    },
+    {
+      "icon_id": "9026154",
+      "name": "主项目配置",
+      "font_class": "projectConfig",
+      "unicode": "e777",
+      "unicode_decimal": 59255
+    },
+    {
+      "icon_id": "18463346",
+      "name": "业务功能设置",
+      "font_class": "businessFunctionSettings",
+      "unicode": "ea34",
+      "unicode_decimal": 59956
+    },
+    {
+      "icon_id": "9026155",
+      "name": "质量运行数据配置",
+      "font_class": "weldingCodeConfig",
+      "unicode": "e778",
+      "unicode_decimal": 59256
+    },
+    {
+      "icon_id": "18463347",
+      "name": "物料启用",
+      "font_class": "materialActivation",
+      "unicode": "ea35",
+      "unicode_decimal": 59957
+    },
+    {
+      "icon_id": "9026156",
+      "name": "项目维护",
+      "font_class": "projectMaintain",
+      "unicode": "e779",
+      "unicode_decimal": 59257
+    },
+    {
+      "icon_id": "18463348",
+      "name": "物料基础设置",
+      "font_class": "wuliaojichushezhi",
+      "unicode": "ea36",
+      "unicode_decimal": 59958
+    },
+    {
+      "icon_id": "9026157",
+      "name": "电熔配件物料维护",
+      "font_class": "EFPMaterialMaintenance",
+      "unicode": "e77a",
+      "unicode_decimal": 59258
+    },
+    {
+      "icon_id": "18463374",
+      "name": "文档管理",
+      "font_class": "documentManagement",
+      "unicode": "ea37",
+      "unicode_decimal": 59959
+    },
+    {
+      "icon_id": "9026158",
+      "name": "编码类型",
+      "font_class": "codeType",
+      "unicode": "e77b",
+      "unicode_decimal": 59259
+    },
+    {
+      "icon_id": "18870532",
+      "name": "工种工价清单",
+      "font_class": "gongzhonggongjiaqingdan",
+      "unicode": "e740",
+      "unicode_decimal": 59200
+    },
+    {
+      "icon_id": "9026159",
+      "name": "项目配置机台",
+      "font_class": "projectConfigWorkName",
+      "unicode": "e77c",
+      "unicode_decimal": 59260
+    },
+    {
+      "icon_id": "18870533",
+      "name": "班组设置",
+      "font_class": "banzushezhi",
+      "unicode": "e741",
+      "unicode_decimal": 59201
+    },
+    {
+      "icon_id": "9365982",
+      "name": "用户信息管理",
+      "font_class": "user-info-manage",
+      "unicode": "e7a9",
+      "unicode_decimal": 59305
+    },
+    {
+      "icon_id": "18870534",
+      "name": "班组成员",
+      "font_class": "banzuchengyuan",
+      "unicode": "e742",
+      "unicode_decimal": 59202
+    },
+    {
+      "icon_id": "9365983",
+      "name": "作业指导管理",
+      "font_class": "operation-guide",
+      "unicode": "e7aa",
+      "unicode_decimal": 59306
+    },
+    {
+      "icon_id": "18870535",
+      "name": "核算日期",
+      "font_class": "hesuanriqi",
+      "unicode": "e743",
+      "unicode_decimal": 59203
+    },
+    {
+      "icon_id": "9989517",
+      "name": "库存管理",
+      "font_class": "stock",
+      "unicode": "e7ce",
+      "unicode_decimal": 59342
+    },
+    {
+      "icon_id": "18870536",
+      "name": "员工信息",
+      "font_class": "yuangongxinxi",
+      "unicode": "e744",
+      "unicode_decimal": 59204
+    },
+    {
+      "icon_id": "9989518",
+      "name": "客户投诉",
+      "font_class": "appcplrecord",
+      "unicode": "e7cf",
+      "unicode_decimal": 59343
+    },
+    {
+      "icon_id": "18870537",
+      "name": "综合积分",
+      "font_class": "zonghejifen",
+      "unicode": "e745",
+      "unicode_decimal": 59205
+    },
+    {
+      "icon_id": "9989519",
+      "name": "领料预留",
+      "font_class": "intakeReservation",
+      "unicode": "e7d0",
+      "unicode_decimal": 59344
+    },
+    {
+      "icon_id": "18870529",
+      "name": "公司设置",
+      "font_class": "gongsishezhi",
+      "unicode": "e746",
+      "unicode_decimal": 59206
+    },
+    {
+      "icon_id": "9989520",
+      "name": "物料重量记录",
+      "font_class": "matWeightRecord",
+      "unicode": "e7d1",
+      "unicode_decimal": 59345
+    },
+    {
+      "icon_id": "18870607",
+      "name": "车间工种",
+      "font_class": "workshopType",
+      "unicode": "e747",
+      "unicode_decimal": 59207
+    },
+    {
+      "icon_id": "9989521",
+      "name": "离线数据处理",
+      "font_class": "offlineDataProcess",
+      "unicode": "e7d2",
+      "unicode_decimal": 59346
+    },
+    {
+      "icon_id": "18871496",
+      "name": "报工管理",
+      "font_class": "baogongguanli",
+      "unicode": "e748",
+      "unicode_decimal": 59208
+    },
+    {
+      "icon_id": "9989522",
+      "name": "仓库收货",
+      "font_class": "warehouse",
+      "unicode": "e7d3",
+      "unicode_decimal": 59347
+    },
+    {
+      "icon_id": "18871497",
+      "name": "部分验收合格工价清单",
+      "font_class": "bufenyanshouhegegongjiaqingdan",
+      "unicode": "e749",
+      "unicode_decimal": 59209
+    },
+    {
+      "icon_id": "9989523",
+      "name": "物料标签",
+      "font_class": "materialTicket",
+      "unicode": "e7d4",
+      "unicode_decimal": 59348
+    },
+    {
+      "icon_id": "18871499",
+      "name": "派工管理",
+      "font_class": "paigongguanli",
+      "unicode": "e74c",
+      "unicode_decimal": 59212
+    },
+    {
+      "icon_id": "9989524",
+      "name": "自定义物料",
+      "font_class": "customMaterials",
+      "unicode": "e7d5",
+      "unicode_decimal": 59349
+    },
+    {
+      "icon_id": "18871500",
+      "name": "模具主数据",
+      "font_class": "mojuzhushuju",
+      "unicode": "e74f",
+      "unicode_decimal": 59215
+    },
+    {
+      "icon_id": "9989525",
+      "name": "预留收货",
+      "font_class": "iRScan",
+      "unicode": "e7d6",
+      "unicode_decimal": 59350
+    },
+    {
+      "icon_id": "18871501",
+      "name": "验收合格模具工价清单",
+      "font_class": "yanshouhegemojugongjiaqingdan",
+      "unicode": "e760",
+      "unicode_decimal": 59232
+    },
+    {
+      "icon_id": "9989526",
+      "name": "操作记录",
+      "font_class": "operationalRecords",
+      "unicode": "e7d7",
+      "unicode_decimal": 59351
+    },
+    {
+      "icon_id": "18871502",
+      "name": "订单管理",
+      "font_class": "dingdanguanli",
+      "unicode": "e761",
+      "unicode_decimal": 59233
+    },
+    {
+      "icon_id": "9989586",
+      "name": "库存盘点",
+      "font_class": "inventory",
+      "unicode": "e7d8",
+      "unicode_decimal": 59352
+    },
+    {
+      "icon_id": "18871503",
+      "name": "模具计产设置",
+      "font_class": "mojujichanshezhi",
+      "unicode": "e762",
+      "unicode_decimal": 59234
+    },
+    {
+      "icon_id": "10017616",
+      "name": "产品系列",
+      "font_class": "cplproductseries",
+      "unicode": "e7d9",
+      "unicode_decimal": 59353
+    },
+    {
+      "icon_id": "18871504",
+      "name": "审批操作",
+      "font_class": "shenpicaozuo",
+      "unicode": "e763",
+      "unicode_decimal": 59235
+    },
+    {
+      "icon_id": "10017617",
+      "name": "原因分类",
+      "font_class": "cplqcreason",
+      "unicode": "e7da",
+      "unicode_decimal": 59354
+    },
+    {
+      "icon_id": "18871505",
+      "name": "计件工艺设置",
+      "font_class": "jijiangongyishezhi",
+      "unicode": "e764",
+      "unicode_decimal": 59236
+    },
+    {
+      "icon_id": "10017618",
+      "name": "纠正预防措施报告",
+      "font_class": "cplmeasuresreport",
+      "unicode": "e7db",
+      "unicode_decimal": 59355
+    },
+    {
+      "icon_id": "18871506",
+      "name": "难度系数设置",
+      "font_class": "nanduxishushezhi",
+      "unicode": "e765",
+      "unicode_decimal": 59237
+    },
+    {
+      "icon_id": "10017620",
+      "name": "综合配件巡检录入",
+      "font_class": "zhRouInspection",
+      "unicode": "e7dc",
+      "unicode_decimal": 59356
+    },
+    {
+      "icon_id": "19058505",
+      "name": "异动状况",
+      "font_class": "changeStatus",
+      "unicode": "e74a",
+      "unicode_decimal": 59210
+    },
+    {
+      "icon_id": "10017621",
+      "name": "投诉问题分类",
+      "font_class": "cplProblems",
+      "unicode": "e7dd",
+      "unicode_decimal": 59357
+    },
+    {
+      "icon_id": "19058506",
+      "name": "合同公司",
+      "font_class": "contractCompany",
+      "unicode": "e766",
+      "unicode_decimal": 59238
+    },
+    {
+      "icon_id": "10017622",
+      "name": "大类报表项",
+      "font_class": "cplreporttype",
+      "unicode": "e7de",
+      "unicode_decimal": 59358
+    },
+    {
+      "icon_id": "19058507",
+      "name": "异动原因",
+      "font_class": "changeReasons",
+      "unicode": "e767",
+      "unicode_decimal": 59239
+    },
+    {
+      "icon_id": "10017623",
+      "name": "综合配件自检录入",
+      "font_class": "zhSelInspection",
+      "unicode": "e7df",
+      "unicode_decimal": 59359
+    },
+    {
+      "icon_id": "19058508",
+      "name": "月度补助项目",
+      "font_class": "monthlySubsidyItems",
+      "unicode": "e768",
+      "unicode_decimal": 59240
+    }
+  ]
+}
