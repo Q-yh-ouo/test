@@ -20,12 +20,13 @@ let router = new Router({
   routes: [
     {
       path: "/",
-      redirect: constant.isElectron ? "/home" : "/login",
+      // redirect: constant.isElectron ? "/home" : "/login",
+      redirect: "/home",
     },
     {
       path: "/login",
       name: "login",
-      component: () => import("../views/login/index2"),
+      component: () => import("../views/login/index3.vue"),
     },
     {
       path: "/home",
@@ -38,7 +39,8 @@ let router = new Router({
     },
     {
       path: "*",
-      redirect: constant.isElectron ? "/home" : "/login",
+      // redirect: constant.isElectron ? "/home" : "/login",
+      redirect: "/home",
     },
   ],
 });
