@@ -179,6 +179,7 @@ export default {
     // 需要使用Websocket通知时，使用以下方法
     // this.initWebsocket()
   },
+
   // 实例挂载前
   beforeMount() {
     EvenBus.$on(TABS_CHANGE, () => {});
@@ -346,7 +347,9 @@ export default {
      * @arg data: 入口按钮绑定的数据值
      * @arg query: 页面传参
      */
+    
     addTab(data, query) {
+      
       if (this.editableTabs.length > 0) {
         // 当editableTabs有数据的时候,分两种情况
         // 1.新建的标签已经存在在editableTabs中
