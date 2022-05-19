@@ -1,27 +1,56 @@
 <!--
- * 系统流程管理界面
+ * 节点字段管理页面
  * @author: 郭湛良-景兴
- * @since: 2021-05-10
+ * @since: 2021-04-27
 -->
 <template>
-    <div class="m-window m-processManagement">
+    <div class="m-window m-nodeFieldManagement">
       <!-- 工具栏 -->
       <div class="m-toolbar">
         <el-form ref="searchForm" :model="searchForm" label-width="0px">
           <el-row :gutter="10">
             <el-col :span="4">
-              <el-form-item label="" prop="processName">
-                <el-input
-                  v-model.trim="searchForm.processName"
-                  type="text"
-                  placeholder="流程名称"
+              <el-form-item prop="processId" label="">
+                <el-select
+                  v-model="searchForm.processId"
+                  :loading="processOptionsLoading"
+                  filterable
                   clearable
-                />
+                  placeholder="系统流程"
+                >
+                  <el-option
+                    v-for="item in processOptions"
+                    :key="item.id"
+                    :label="item.processName"
+                    :value="item.id"
+                  />
+                </el-select>
               </el-form-item>
             </el-col>
-            <el-col :span="10" :push="10">
+            <el-col :span="4">
+              <el-form-item label="" prop="nodeId">
+                <el-select
+                  v-model="searchForm.nodeId"
+                  :loading="processNodeSearchOptionsLoading"
+                  :disabled="!searchForm.processId"
+                  filterable
+                  clearable
+                  :placeholder="
+                    searchForm.processId ? '流程节点' : '请先选择流程'
+                  "
+                >
+                  <el-option
+                    v-for="item in processNodeSearchOptions"
+                    :key="item.NODEID"
+                    :label="item.NODENAME"
+                    :value="item.NODEID"
+                  />
+                </el-select>
+              </el-form-item>
+            </el-col>
+            <el-col :span="10" :push="6">
               <el-row :gutter="10" type="flex" justify="end">
-                <el-col :span="3" style="overflow: hidden">
+                <el-col :span="4" style="overflow: hidden">
                   <el-checkbox v-model="searchForm.state" label="显示停用" />
                 </el-col>
                 <el-col :span="4">
@@ -107,55 +136,118 @@
         />
       </div>
       <!-- /主表格分页 -->
-      <!-- 新增、编辑流程信息 对话框 -->
+      <!-- 新增、编辑字段信息 对话框 -->
       <el-dialog
-        :title="processFormDialogTitle"
-        :visible.sync="processFormDialogVisible"
-        :before-close="processFormDialogBeforeClose"
+        :title="fieldFormDialogTitle"
+        :visible.sync="fieldFormDialogVisible"
+        :before-close="fieldFormDialogBeforeClose"
         :close-on-click-modal="false"
         v-dialogDrag
         width="50%"
       >
         <el-form
-          ref="processForm"
-          :model="processForm"
-          :rules="processFormRules"
+          ref="fieldForm"
+          :model="fieldForm"
+          :rules="fieldFormRules"
           label-width="140px"
         >
-          <el-form-item label="OA流程ID" prop="workflowId">
-            <el-input
-              v-model.trim="processForm.workflowId"
-              type="text"
-              placeholder="请输入OA流程ID"
+          <el-form-item
+            v-if="operationFlag === 'add'"
+            label="系统流程"
+            prop="processId"
+          >
+            <el-select
+              v-model="fieldForm.processId"
+              :loading="processOptionsLoading"
+              filterable
               clearable
+              placeholder="请选择系统流程"
+            >
+              <el-option
+                v-for="item in processOptions"
+                :key="item.id"
+                :label="item.processName"
+                :value="item.id"
+              />
+            </el-select>
+          </el-form-item>
+          <el-form-item
+            v-if="operationFlag === 'add'"
+            label="流程节点"
+            prop="nodeId"
+          >
+            <el-select
+              v-model="fieldForm.nodeId"
+              :loading="processNodeOptionsLoading"
+              :disabled="!fieldForm.processId"
+              filterable
+              clearable
+              placeholder="请选择流程节点"
+            >
+              <el-option
+                v-for="item in processNodeOptions"
+                :key="item.NODEID"
+                :label="item.NODENAME"
+                :value="item.NODEID"
+              />
+            </el-select>
+          </el-form-item>
+          <el-form-item
+            v-if="operationFlag === 'add'"
+            label="系统字段"
+            prop="columnIds"
+          >
+            <el-select
+              v-model="fieldForm.columnIds"
+              :loading="systemFieldOptionsLoading"
+              filterable
+              clearable
+              multiple
+              collapse-tags
+              placeholder="请选择系统字段"
+            >
+              <el-option
+                v-for="item in systemFieldOptions"
+                :key="item.id"
+                :label="item.fieldText + '：' + item.fieldName"
+                :value="item.id"
+              />
+            </el-select>
+          </el-form-item>
+          <el-form-item label="显示" prop="columnShow">
+            <el-switch
+              v-model="fieldForm.columnShow"
+              active-color="#13ce66"
+              inactive-color="#ff4949"
             />
           </el-form-item>
-          <el-form-item label="流程名称" prop="processName">
-            <el-input
-              v-model.trim="processForm.processName"
-              type="text"
-              placeholder="请输入流程名称"
-              clearable
+          <el-form-item label="编辑" prop="columnEdit">
+            <el-switch
+              v-model="fieldForm.columnEdit"
+              active-color="#13ce66"
+              inactive-color="#ff4949"
             />
           </el-form-item>
         </el-form>
         <span slot="footer" class="dialog-footer">
-          <el-button @click="closeProcessFormDialog(true)">取消</el-button>
+          <el-button @click="closeFieldFormDialog(true)">取消</el-button>
           <el-button
-            :loading="processFormSubmitting"
+            :loading="fieldFormSubmitting"
             type="primary"
-            @click="onConfirmProcessForm()"
+            @click="onConfirmFieldForm()"
           >
             确定
           </el-button>
         </span>
       </el-dialog>
-      <!-- /新增、编辑流程信息 对话框 -->
+      <!-- /新增、编辑字段信息 对话框 -->
     </div>
   </template>
   <script>
   import authorize from "@/public/authorize";
   import gridOptions from "lesso-common/public/gridOptions";
+  import EvenBus from "@/public/evenBus";
+  import { TABS_CHANGE } from "@/public/evenbusConstant";
   import Vue from "vue";
   const tooltipForCell = Vue.extend({
     template: `<el-tooltip 
@@ -166,20 +258,27 @@
                       <span>{{params.value}}</span>
                   </el-tooltip>`,
   });
-  // 流程信息表单校验规则
-  const processFormRules = {
-    workflowId: [
+  // 字段信息表单校验规则
+  const fieldFormRules = {
+    processId: [
       {
         required: true,
-        trigger: "blur",
-        message: "请输入OA流程ID",
+        trigger: "change",
+        message: "请选择系统流程",
       },
     ],
-    processName: [
+    nodeId: [
       {
         required: true,
-        trigger: "blur",
-        message: "请输入流程名称",
+        trigger: "change",
+        message: "请选择流程节点",
+      },
+    ],
+    columnIds: [
+      {
+        required: true,
+        trigger: "change",
+        message: "请选择系统字段",
       },
     ],
   };
@@ -187,7 +286,7 @@
   let mainTableSelectedRow = null;
   
   export default {
-    name: "processManagement",
+    name: "nodeFieldManagement",
     // 依赖组件
     components: {},
     // 接口（组件的接口）
@@ -195,7 +294,7 @@
     // 响应式数据
     data() {
       return {
-        name: "processManagement",
+        name: "nodeFieldManagement",
         /**
          * @vuese
          * 按钮权限组
@@ -206,7 +305,6 @@
           edit: true, // 编辑
           delete: true, // 删除
           restore: true, // 恢复
-          changeState: true, // 改变状态，停用、启用
         },
         /**
          * @vuese
@@ -218,7 +316,6 @@
           edit: false, // 编辑
           delete: false, // 删除
           restore: false, // 恢复
-          changeState: false, // 改变状态，停用、启用
         },
         /**
          * @vuese
@@ -233,9 +330,12 @@
          * 搜索表单数据
          */
         searchForm: {
-          processName: "", // 流程名称
+          processId: "", // 流程Id
+          nodeId: "", // 节点Id
           state: false, // 是否显示停用
         },
+        processNodeSearchOptionsLoading: false, // 流程节点选项加载状态
+        processNodeSearchOptions: false, // 流程节点选项
         /**
          * @vuese
          * 表格分页大小选项
@@ -259,32 +359,41 @@
         operationFlag: "", // query: 查询; add: 新增; edit: 编辑; delete: 删除;
         /**
          * @vuese
-         * 流程信息表单对话框 相关数据
+         * 字段信息表单对话框 相关数据
          */
-        processFormDialogVisible: false, // 对话框是否显示
-        processFormSubmitting: false, // 表单提交状态
-        // 流程信息表单数据
-        processForm: {
-          workflowId: "", // OA流程ID
-          processName: "", // 流程名称
+        fieldFormDialogVisible: false, // 对话框是否显示
+        fieldFormSubmitting: false, // 表单提交状态
+        // 字段信息表单数据
+        fieldForm: {
+          processId: null, // 系统流程Id
+          nodeId: null, // 流程节点Id
+          columnIds: null, // 系统字段ids
+          columnShow: false, // 是否可显示
+          columnEdit: false, // 是否可编辑
         },
-        processFormRules, // 流程信息表单校验规则
+        fieldFormRules, // 字段信息表单校验规则
+        processOptionsLoading: false, // 流程选项加载状态
+        processOptions: false, // 流程选项
+        processNodeOptionsLoading: false, // 流程节点选项加载状态
+        processNodeOptions: false, // 流程节点选项
+        systemFieldOptionsLoading: false, // 系统字段选项加载状态
+        systemFieldOptions: false, // 系统字段选项
       };
     },
     // 计算属性
     computed: {
       /**
        * @vuese
-       * 流程信息表单对话框的标题
+       * 字段信息表单对话框的标题
        */
-      processFormDialogTitle() {
+      fieldFormDialogTitle() {
         let _title = "";
         switch (this.operationFlag) {
           case "add":
-            _title = "新增流程信息";
+            _title = "新增节点字段信息";
             break;
           case "edit":
-            _title = "编辑流程信息";
+            _title = "编辑节点字段信息";
             break;
           default:
             break;
@@ -298,16 +407,31 @@
       this.initAuthBtn();
       // 获取主表格数据
       this.getMainTableData();
+      // 获取流程列表
+      this.getProcessList();
+      // 获取所有系统字段
+      this.getBasePfmMercolumnListAll();
     },
     // 实例挂载前
     beforeMount() {
       // 初始化ag-grid表格配置
       this.initGrid();
+      // tabs标签页切换
+      EvenBus.$on(TABS_CHANGE, (data) => {
+        if (data.content === this.name) {
+          // 获取流程列表
+          this.getProcessList();
+          // 获取所有系统字段
+          this.getBasePfmMercolumnListAll();
+        }
+      });
     },
     // 实例挂载完成
     mounted() {},
     // 实例销毁前
-    beforeDestroy() {},
+    beforeDestroy() {
+      EvenBus.$off(TABS_CHANGE);
+    },
     // 实例内函数
     methods: {
       /**
@@ -329,42 +453,78 @@
   
         this.mainTableColumns = [
           {
-            headerName: "OA流程ID",
-            field: "workflowId",
-            width: 150,
+            headerName: "流程名称",
+            field: "processName",
+            width: 200,
             /**
              * 一般在第一列数据上加勾选框
              */
             headerCheckboxSelection: false, // 是否在标题栏显示全选勾选框
             checkboxSelection: true, // 是否在行头显示勾选框
             headerCheckboxSelectionFilteredOnly: true, //是否只全选过滤数据
-          },
-          {
-            headerName: "流程编码",
-            field: "processCode",
-            width: 150,
-          },
-          {
-            headerName: "流程名称",
-            field: "processName",
             cellRendererFramework: tooltipForCell,
           },
           {
-            headerName: "创建人",
+            headerName: "OA节点ID",
+            field: "nodeId",
+            width: 150,
+          },
+          {
+            headerName: "OA节点名称",
+            field: "nodeText",
+            width: 150,
+          },
+          {
+            headerName: "字段名称",
+            field: "columnName",
+            width: 150,
+          },
+          {
+            headerName: "是否可编辑",
+            field: "columnEdit",
+            width: 100,
+            cellRenderer: ({ data }) => {
+              return data.columnEdit === 0 ? "是" : "否";
+            },
+          },
+          {
+            headerName: "是否显示",
+            field: "columnShow",
+            width: 100,
+            cellRenderer: ({ data }) => {
+              return data.columnShow === 0 ? "是" : "否";
+            },
+          },
+          {
+            headerName: "创建人工号",
+            field: "createBy",
+            width: 150,
+          },
+          {
+            headerName: "创建人名称",
             field: "creator",
+            width: 150,
           },
           {
             headerName: "创建时间",
             field: "createTime",
+            width: 150,
             cellRendererFramework: tooltipForCell,
           },
           {
-            headerName: "修改人",
+            headerName: "修改人工号",
+            field: "updateBy",
+            width: 150,
+          },
+          {
+            headerName: "修改人名称",
             field: "updator",
+            width: 150,
           },
           {
             headerName: "修改时间",
             field: "updateTime",
+            width: 150,
             cellRendererFramework: tooltipForCell,
           },
         ];
@@ -405,7 +565,7 @@
        * 获取主表格数据
        */
       getMainTableData() {
-        this.getProcessList();
+        this.getNodeColumnsList();
       },
       /**
        * @vuese
@@ -422,7 +582,7 @@
        */
       onAdd() {
         this.operationFlag = "add";
-        this.openProcessFormDialog();
+        this.openFieldFormDialog();
       },
       /**
        * @vuese
@@ -430,6 +590,7 @@
        */
       onEdit() {
         this.operationFlag = "edit";
+        // 主表格选中行
         const _rows = this.getMainTableSelectedRows();
         if (_rows.length === 0) {
           this.$alert("请选择需要编辑的行", {
@@ -441,14 +602,14 @@
         }
         // 保存选中行的数据
         mainTableSelectedRow = _rows[0];
-        // 打开对话框
-        this.openProcessFormDialog();
+        this.openFieldFormDialog();
       },
       /**
        * @vuese
        * 删除事件
        */
       onDelete() {
+        // 主表格选中行
         const _rows = this.getMainTableSelectedRows();
         if (_rows.length === 0) {
           this.$alert("请选择需要停用的行", {
@@ -457,11 +618,18 @@
             customClass: "alertPrompt",
           });
           return;
+        } else if (_rows.length > 1) {
+          this.$alert("暂不支持批量停用，请选择一条", {
+            showClose: false,
+            confirmButtonText: "确定",
+            customClass: "alertPrompt",
+          });
+          return;
         }
         this.$confirm("确定停用？").then(() => {
           this.operationFlag = "delete";
-          // 删除流程信息
-          this.deleteProcess(_rows[0].id);
+          // 删除节点字段数据
+          this.deleteNodeColumns(_rows[0].id);
         });
       },
       /**
@@ -469,6 +637,7 @@
        * 恢复事件
        */
       onRestore() {
+        // 主表格选中行
         const _rows = this.getMainTableSelectedRows();
         if (_rows.length === 0) {
           this.$alert("请选择需要启用的行", {
@@ -477,66 +646,73 @@
             customClass: "alertPrompt",
           });
           return;
+        } else if (_rows.length > 1) {
+          this.$alert("暂不支持批量启用，请选择一条", {
+            showClose: false,
+            confirmButtonText: "确定",
+            customClass: "alertPrompt",
+          });
+          return;
         }
         this.$confirm("确定启用？").then(() => {
           this.operationFlag = "restore";
-          // 恢复流程信息
-          this.restoreProcess(_rows[0].id);
+          // 恢复节点字段数据
+          this.restoreNodeColumns(_rows[0].id);
         });
       },
       /**
        * @vuese
-       * 打开 流程信息表单对话框
+       * 打开 字段信息表单对话框
        */
-      openProcessFormDialog() {
-        this.processFormDialogVisible = true;
+      openFieldFormDialog() {
+        this.fieldFormDialogVisible = true;
         this.$nextTick(() => {
           if (this.operationFlag === "add") {
             // 重置表单
-            this.resetForm("processForm");
+            this.resetForm("fieldForm");
           } else if (this.operationFlag === "edit") {
             // 移除表单项的校验结果
-            this.clearFormValidate("processForm");
+            this.clearFormValidate("fieldForm");
             // 设置表单默认值
-            this.processForm = {
-              workflowId: mainTableSelectedRow.workflowId, // OA流程ID
-              processName: mainTableSelectedRow.processName, // 流程名称
+            this.fieldForm = {
+              columnShow: mainTableSelectedRow.columnShow === 0, // 是否可显示
+              columnEdit: mainTableSelectedRow.columnEdit === 0, // 是否可编辑
             };
           }
         });
       },
       /**
        * @vuese
-       * 关闭 流程信息表单对话框
+       * 关闭 字段信息表单对话框
        * @arg {Boolean} reconfirm 是否需要二次确认
        */
-      closeProcessFormDialog(reconfirm) {
+      closeFieldFormDialog(reconfirm) {
         if (reconfirm) {
           this.$confirm("确认关闭？").then(() => {
-            this.processFormDialogVisible = false;
+            this.fieldFormDialogVisible = false;
           });
         } else {
-          this.processFormDialogVisible = false;
+          this.fieldFormDialogVisible = false;
         }
       },
       /**
        * @vuese
        * 流程信息表单对话框 关闭前的回调
        */
-      processFormDialogBeforeClose() {
-        this.closeProcessFormDialog(true);
+      fieldFormDialogBeforeClose() {
+        this.closeFieldFormDialog(true);
       },
       /**
        * @vuese
-       * 流程信息表单对话框 确认事件
+       * 字段信息表单对话框 确认事件
        */
-      onConfirmProcessForm() {
-        this.$refs["processForm"].validate((valid) => {
+      onConfirmFieldForm() {
+        this.$refs["fieldForm"].validate((valid) => {
           if (valid) {
             if (this.operationFlag === "add") {
-              this.addProcess();
+              this.addNodeColumns();
             } else if (this.operationFlag === "edit") {
-              this.updateProcess();
+              this.updateNodeColumns();
             }
           }
         });
@@ -559,14 +735,15 @@
       },
       /**
        * @vuese
-       * 获取流程信息列表
+       * 获取节点字段数据列表
        */
-      getProcessList() {
+      getNodeColumnsList() {
         this.mainTableLoading = true;
         this.$http
-          .getProcessList({
+          .getNodeColumnsList({
             ...this.searchForm,
-            processName: this.searchForm.processName || undefined, // 不允许传空字符串，值为空时改为undefined，axios会过滤掉undefined的字段
+            processId: this.searchForm.processId || undefined, // 不允许传空字符串，值为空时改为undefined，axios会过滤掉undefined的字段
+            nodeId: this.searchForm.nodeId || undefined, // 不允许传空字符串，值为空时改为undefined，axios会过滤掉undefined的字段
             state: this.searchForm.state ? 1 : 0,
             current: this.mainTableCurrentPage,
             size: this.mainTablePageSize,
@@ -598,23 +775,26 @@
       },
       /**
        * @vuese
-       * 新增流程信息
-       * @arg {String} workflowId OA流程ID
-       * @arg {String} processName 流程名称
-       * @arg {String} createBy 创建人工号
-       * @arg {String} creator 创建人名称
+       * 新增节点字段
        */
-      addProcess() {
+      addNodeColumns() {
         const { sapNum, employeeName } = this.$utils.getStorage("userData").user;
-        this.processFormSubmitting = true;
+        this.fieldFormSubmitting = true;
+        const newFieldForm = { ...this.fieldForm };
+        newFieldForm.columnEdit = newFieldForm.columnEdit ? 0 : 1;
+        newFieldForm.columnShow = newFieldForm.columnShow ? 0 : 1;
+        const findNode = this.processNodeOptions.find(
+          (item) => item.NODEID === newFieldForm.nodeId
+        );
+        newFieldForm.nodeText = findNode ? findNode.NODENAME : "";
         this.$http
-          .addProcess({
-            ...this.processForm,
+          .addNodeColumns({
+            ...newFieldForm,
             createBy: sapNum,
             creator: employeeName,
           })
           .then((response) => {
-            this.processFormSubmitting = false;
+            this.fieldFormSubmitting = false;
             const data = response.data;
             const { code, info } = data;
             if (code === 1) {
@@ -622,8 +802,8 @@
                 type: "success",
                 message: "新增成功",
               });
-              // 关闭流程信息表单对话框
-              this.closeProcessFormDialog(false);
+              // 关闭节点字段信息表单对话框
+              this.closeFieldFormDialog(false);
               // 获取主表格数据
               this.getMainTableData();
             } else {
@@ -635,7 +815,7 @@
             }
           })
           .catch((error) => {
-            this.processFormSubmitting = false;
+            this.fieldFormSubmitting = false;
             if (error.response && error.response.data.code === 0) {
               this.$message.error(error.response.data.info);
             }
@@ -643,25 +823,29 @@
       },
       /**
        * @vuese
-       * 修改流程信息
-       * @arg {String} workflowId OA流程ID
-       * @arg {String} processName 流程名称
-       * @arg {String} updateBy 修改人工号
+       * 修改节点字段信息
+       * @arg {Number} id 节点字段记录Id
+       * @arg {Number} columnEdit 是否可编辑 0: 是; 1: 否;
+       * @arg {Number} columnShow 是否可显示 0: 是; 1: 否;
+       * @arg {Number} updateBy 修改人工号
        * @arg {String} updator 修改人名称
        */
-      updateProcess() {
+      updateNodeColumns() {
         const { sapNum, employeeName } = this.$utils.getStorage("userData").user;
         const { id } = mainTableSelectedRow;
-        this.processFormSubmitting = true;
+        this.fieldFormSubmitting = true;
+        const newFieldForm = {};
+        newFieldForm.columnEdit = this.fieldForm.columnEdit ? 0 : 1;
+        newFieldForm.columnShow = this.fieldForm.columnShow ? 0 : 1;
         this.$http
-          .updateProcess({
-            ...this.processForm,
+          .updateNodeColumns({
+            ...newFieldForm,
             id,
             updateBy: sapNum,
             updator: employeeName,
           })
           .then((response) => {
-            this.processFormSubmitting = false;
+            this.fieldFormSubmitting = false;
             const data = response.data;
             const { code, info } = data;
             if (code === 1) {
@@ -669,8 +853,8 @@
                 type: "success",
                 message: "修改成功",
               });
-              // 关闭流程信息表单对话框
-              this.closeProcessFormDialog(false);
+              // 关闭节点字段信息表单对话框
+              this.closeFieldFormDialog(false);
               // 获取主表格数据
               this.getMainTableData();
             } else {
@@ -682,7 +866,7 @@
             }
           })
           .catch((error) => {
-            this.processFormSubmitting = false;
+            this.fieldFormSubmitting = false;
             if (error.response && error.response.data.code === 0) {
               this.$message.error(error.response.data.info);
             }
@@ -690,16 +874,16 @@
       },
       /**
        * @vuese
-       * 删除流程信息
-       * @arg {String} id 流程信息记录Id
+       * 删除节点字段数据
+       * @arg {String} id 节点字段数据记录Id
        * @arg {String} updateBy 修改人工号
        * @arg {String} updator 修改人姓名
        */
-      deleteProcess(id) {
+      deleteNodeColumns(id) {
         const { sapNum, employeeName } = this.$utils.getStorage("userData").user;
         this.$set(this.btnLoadings, "delete", true);
         this.$http
-          .deleteProcess({
+          .deleteNodeColumns({
             id,
             updateBy: sapNum,
             updator: employeeName,
@@ -732,16 +916,16 @@
       },
       /**
        * @vuese
-       * 恢复流程信息
-       * @arg {String} id 流程信息记录Id
+       * 恢复节点字段数据
+       * @arg {String} id 节点字段数据记录Id
        * @arg {String} updateBy 修改人工号
        * @arg {String} updator 修改人姓名
        */
-      restoreProcess(id) {
+      restoreNodeColumns(id) {
         const { sapNum, employeeName } = this.$utils.getStorage("userData").user;
         this.$set(this.btnLoadings, "restore", true);
         this.$http
-          .restoreProcess({
+          .restoreNodeColumns({
             id,
             updateBy: sapNum,
             updator: employeeName,
@@ -772,6 +956,114 @@
             }
           });
       },
+      /**
+       * @vuese
+       * 获取流程信息列表
+       */
+      getProcessList() {
+        this.processOptionsLoading = true;
+        this.$http
+          .getProcessListAll()
+          .then((response) => {
+            this.processOptionsLoading = false;
+            const data = response.data;
+            const { code, info } = data;
+            if (code === 1) {
+              const { rows } = data;
+              this.processOptions = rows;
+            } else {
+              this.$alert(info, {
+                showClose: false,
+                confirmButtonText: "确定",
+                customClass: "alertFailure",
+              });
+            }
+          })
+          .catch((error) => {
+            this.processOptionsLoading = false;
+            if (error.response && error.response.data.code === 0) {
+              this.$message.error(error.response.data.info);
+            }
+          });
+      },
+      /**
+       * @vuese
+       * 根据流程Id获取流程节点
+       * @arg {Number} workflowId 流程Id
+       * @arg {String} flag 标识 search: 搜索用; form: 表单用;
+       */
+      getNodeListByWorkflowId(workflowId, flag) {
+        if (flag === "search") {
+          this.processNodeSearchOptionsLoading = true;
+        } else {
+          this.processNodeOptionsLoading = true;
+        }
+        this.$http
+          .getNodeListByWorkflowId(workflowId)
+          .then((response) => {
+            if (flag === "search") {
+              this.processNodeSearchOptionsLoading = false;
+            } else {
+              this.processNodeOptionsLoading = false;
+            }
+            const data = response.data;
+            const { code, info } = data;
+            if (code === 1) {
+              const { rows } = data;
+              if (flag === "search") {
+                this.processNodeSearchOptions = rows;
+              } else {
+                this.processNodeOptions = rows;
+              }
+            } else {
+              this.$alert(info, {
+                showClose: false,
+                confirmButtonText: "确定",
+                customClass: "alertFailure",
+              });
+            }
+          })
+          .catch((error) => {
+            if (flag === "search") {
+              this.processNodeSearchOptionsLoading = false;
+            } else {
+              this.processNodeOptionsLoading = false;
+            }
+            if (error.response && error.response.data.code === 0) {
+              this.$message.error(error.response.data.info);
+            }
+          });
+      },
+      /**
+       * @vuese
+       * 获取所有系统字段
+       */
+      getBasePfmMercolumnListAll() {
+        this.systemFieldOptionsLoading = true;
+        this.$http
+          .getBasePfmMercolumnListTwo()
+          .then((response) => {
+            this.systemFieldOptionsLoading = false;
+            const data = response.data;
+            const { code, info } = data;
+            if (code === 1) {
+              const { rows } = data;
+              this.systemFieldOptions = rows;
+            } else {
+              this.$alert(info, {
+                showClose: false,
+                confirmButtonText: "确定",
+                customClass: "alertFailure",
+              });
+            }
+          })
+          .catch((error) => {
+            this.systemFieldOptionsLoading = false;
+            if (error.response && error.response.data.code === 0) {
+              this.$message.error(error.response.data.info);
+            }
+          });
+      },
     },
     // 侦听器
     watch: {
@@ -781,11 +1073,27 @@
         this.mainTablePageSize = 30;
         this.getMainTableData();
       },
+      "fieldForm.processId"(val) {
+        const findProcess = this.processOptions.find((item) => item.id === val);
+        if (findProcess) {
+          this.getNodeListByWorkflowId(findProcess.workflowId, "form");
+        } else {
+          this.$set(this.fieldForm, "nodeId", "");
+        }
+      },
+      "searchForm.processId"(val) {
+        const findProcess = this.processOptions.find((item) => item.id === val);
+        if (findProcess) {
+          this.getNodeListByWorkflowId(findProcess.workflowId, "search");
+        } else {
+          this.$set(this.searchForm, "nodeId", "");
+        }
+      },
     },
   };
   </script>
   <style lang="less" scoped>
-  .m-processManagement {
+  .m-nodeFieldManagement {
   }
   </style>
   
